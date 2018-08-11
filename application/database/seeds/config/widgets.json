@@ -1,0 +1,109 @@
+{
+  "widgets": [
+    {
+      "id": "sideBar",
+      "name": "Sidebar",
+      "widgets": [
+        {
+          "title": "FB like",
+          "content": "<iframe style=\"border: none; overflow: hidden; height: 290px;\" src=\"\/\/www.facebook.com\/plugins\/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&amp;width&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true\" width=\"300\" height=\"150\" frameborder=\"0\" scrolling=\"no\"><\/iframe><br>Edit this in Widgets page in admin panel.",
+          "disabled": "false"
+        },
+        {
+          "title": "Leaderboard",
+          "content": "[leaderboard]<br \/><br \/>",
+          "disabled": "false"
+        },
+        {
+          "title": "Quizzes widgets",
+          "content": "<h4>Latest\u00a0Quizzes<\/h4>[random_quizzes limit=\"2\"]<h4><br \/>Random\u00a0Quizzes<\/h4>[random_quizzes limit=\"2\"]<h4><br \/>Popular\u00a0Quizzes<\/h4>[random_quizzes limit=\"2\"]",
+          "disabled": "false"
+        }
+      ]
+    },
+    {
+      "id": "footer",
+      "name": "Footer",
+      "widgets": [
+        {
+          "title": "Privacy & TOC links",
+          "content": "- All rights reserved. \u00a0\u00a0<a href=\"\/pages\/privacy-policy.html\">Privacy policy<\/a> \u00a0\u00a0<a href=\"\/pages\/terms-of-service.html\">Terms of service<\/a>",
+          "disabled": "false"
+        }
+      ]
+    },
+    {
+      "id": "belowQuiz",
+      "name": "Below quiz"
+    },
+    {
+      "id": "homeHeader",
+      "name": "Home header",
+      "widgets": [
+        {
+          "title": "Home welcome message",
+          "content": "<div class=\"jumbotron\" style=\"background: #fff;border-radius: 4px;\">\r\n\t\t<h1 style=\"margin-bottom: .2em;\">Welcome<\/h1><h3>Have fun with interesting quizzes.<\/h3>\r\n\t<\/div>",
+          "disabled": "false"
+        }
+      ]
+    },
+    {
+      "id": "aboveQuizzesList",
+      "name": "Above Quizzes list"
+    },
+    {
+      "id": "belowQuizzesList",
+      "name": "Below quizzes list"
+    },
+    {
+      "id": "commonFooterSection",
+      "name": "Common footer section"
+    },
+    {
+      "id": "navbarLinks",
+      "name": "Links in navbar",
+      "widgets": [
+        {
+          "title": "Contact us",
+          "content": "<a href=\"\/pages\/contact-us.html\" >Contact us<\/a>",
+          "disabled": "true"
+        },
+        {
+          "title": "Like us on Facebook",
+          "content": "<a href=\"http:\/\/facebook.com\/facebook\" >Like us on Facebook<\/a>",
+          "disabled": "true"
+        }
+      ]
+    },
+    {
+      "id": "aboveQuizQuestion",
+      "name": "Above quiz question"
+    },
+    {
+      "id": "embedQuizFooter",
+      "name": "Embedded Quiz footer content"
+    },
+    {
+      "id": "leaderboardPageHeader",
+      "name": "Leaderboard page top section",
+      "widgets": [
+        {
+          "title": "Leaderboard details",
+          "content": "Attempt quizzes and share them on Facebook, Twitter, etc to earn more points. Beat others and reach the top of the Leaderboard!",
+          "disabled": "false"
+        }
+      ]
+    },
+    {
+      "id": "leaderboardWidgetBottom",
+      "name": "Leaderboard widget bottom section (below top users' list)",
+      "widgets": [
+        {
+          "title": "Leaderboard hint",
+          "content": "Attempt more quizzes and share them on Facebook, Twitter, etc to earn more points.",
+          "disabled": "false"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+<h4 class="text-center quiz-progress-text">{{__ "question"}} {{questionNumber}} / {{totalQuestions}}</h4>
+<h2 class="quiz-question-title">{{question}}</h2>
+<div class="row">
+	<div class="col-md-12">
+		{{#if image}}
+			<div class="text-center">
+				<img class="quiz-question-img" src="{{contentUrl image}}" alt="">
+			</div>
+		{{/if}}
+		{{#if description}}
+			<div class="quiz-question-description">
+				{{{description}}}
+			</div>
+		{{/if}}
+		<div class="grid-menu clearfix choices-section-container">
+			<div class="choices-section">
+                <div class="right-answer-response question-answer-response">
+                    <i class="fa fa-check-circle fa-4x response-icon"></i>
+					<div>{{__ "itsTheCorrectAnswer"}}</div>
+                </div>
+                <div class="wrong-answer-response question-answer-response">
+                    <i class="fa fa-times-circle fa-4x response-icon"></i>
+                    <div>{{__ "theCorrectAnswerIs"}}</div>
+                </div>
+                <div class="choices-box-container"></div>
+                {{#if correctAnswerExplanation}}
+                    <div class="correct-answer-explanation-container">
+                        <div class="row">
+                            <div class="col-md-1 col-sm-2 hidden-xs hidden-sm">
+                                <i class="fa fa-lightbulb-o fa-2x correct-answer-explanation-icon"></i>
+                            </div>
+                            <div class="col-md-11 col-sm-10 col-xs-12">
+                                <div class="correct-answer-explanation">
+                                    {{{correctAnswerExplanation}}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {{/if}}
+                <div class="text-center proceed-after-answer-response-block">
+                    <div class="btn btn-primary proceed-after-answer-response-btn"><span>{{__ "okNext"}}</span></div>
+				</div>
+			</div>
+		</div>
+
+		{{#if skippable}}
+		<div class="text-right"><div class="btn btn-icon-right skip-question-btn"><span>{{__ "skip"}}</span></div></div>
+		{{/if}}
+	</div>
+</div>

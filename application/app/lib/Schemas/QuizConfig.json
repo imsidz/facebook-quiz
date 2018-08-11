@@ -1,0 +1,102 @@
+{
+  "enableInfiniteScroll" : {
+    "type": "boolean",
+    "title": "Enable infinite scrolling",
+    "description": "Next set of items are loaded automatically when the users scroll to the end of the page without having to click to go to next page."
+  },
+  "perPageLimit" : {
+    "type": "number",
+    "title": "Number of lists per page. This setting is discarded when 'Infinite scrolling' is enabled",
+    "required": true
+  },
+  "forceLogin" : {
+    "type": "text",
+    "title": "Force Login",
+    "description": "Require user to login by default while taking a quiz. Necessary for tracking users of a quiz. (Could be changed for each quiz)",
+    "required": true,
+    "enum": [
+      "disabled",
+      "on-quiz-start",
+      "before-result"
+    ]
+  },
+  "loginPromptMessageOnQuizStart": {
+    "type": "text",
+    "title": "'On quiz start' Login prompt message",
+    "description": "Message to be shown to the user asking for logging in on quiz start. (Leave it empty to use default message setting in 'Config' menu)"
+  },
+  "loginPromptMessageBeforeResult": {
+    "type": "text",
+    "title": "'Before result' Login prompt message",
+    "description": "Message to be shown to the user asking for logging in before viewing result. (Leave it empty to use default message setting in 'Config' menu)"
+  },
+  "comments" : {
+    "type": "string",
+    "title": "Comments system",
+    "enum": [
+      "disabled",
+      "facebook",
+      "disqus"
+    ]
+  },
+  "disqusShortname" : {
+    "type": "string",
+    "title": "Disqus shortname",
+    "description": "Required only if comments system is set to 'disqus'. It can be obtained on registering your site on Disqus. <a target='_blank' href='https://help.disqus.com/customer/portal/articles/466208'>Click here for more info</a>"
+  },
+  "showSharePromptModal" : {
+    "type": "boolean",
+    "title": "Show share prompt modal",
+    "description": "Show share prompt modal after quiz result is shown to the user"
+  },
+  "showPageLikePrompt" : {
+    "type": "boolean",
+    "title": "Show page-like prompt",
+    "description": "Show facebook page-like prompt below quiz result"
+  },
+  "enableShareLock": {
+    "type": "boolean",
+    "title": "Enable Facebook Share lock for viewing result",
+    "description": "If set to true, users are forced to share the quiz on Facebook to view results."
+  },
+  "inactiveQuizVisibleViaLink" : {
+    "type": "boolean",
+    "title": "Make inactive quizzes accessible via link",
+    "description": "Let users access an 'inactive' quiz via its link. But inactive quizzes will not appear on homepage, quizzes list and related quizzes section."
+  },
+  "showCorrectAnswerDuringQuiz": {
+    "type": "boolean",
+    "title": "Show correct answer after every question (in Trivia - right/wrong quizzes)",
+    "description": "If enabled, the user will be shown if his answer is right or wrong. If wrong, the correct answer will also be shown."
+  },
+  "showCorrectAnswersAtTheEnd": {
+    "type": "boolean",
+    "title": "Show correct answers at the end of the quiz.",
+    "description": "If enabled, a 'Show correct answers' button will be displayed after the quiz is finished which lets the user view all the correct answers"
+  },
+  "youMayAlsoLikeShortCode" : {
+    "type": "string",
+    "title": "You may also like Shortcode - The short-code used to display 'You may also like' list. <a href='#' data-refer-shortcodes='true'>Click here to see available shortcodes</a>.",
+    "description": "If not provided, random quizzes will be displayed."
+  },
+  "showResultScore": {
+    "type": "boolean",
+    "title": "Show user's score/percent at the end of trivia quizzes."
+  },
+  "autoQuizStart": {
+    "type": "boolean",
+    "title": "Start quiz automatically without clicking 'Start quiz' button when user visits the page."
+  },
+  "userPicXPos": {
+    "type": "number",
+    "title": "X coordinate position to add profile picture on result images (In pixels). You can override this per quiz in quiz editor"
+  },
+  "userPicYPos": {
+    "type": "number",
+    "title": "Y coordinate position to add profile picture on result images (In pixels). You can override this per quiz in quiz editor"
+  },
+  "userPicSize": {
+    "type": "number",
+    "title": "The size (Width and height of a square photo) of the profile picture on result images (In pixels). You can override this per quiz in quiz editor"
+  }
+}

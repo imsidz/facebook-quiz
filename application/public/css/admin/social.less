@@ -1,0 +1,69 @@
+@btn-default-color: #eee;
+
+// Social colors
+@social-pinterest:          #cb2028;
+@social-linkedin:           #0072b5;
+@social-stumbleupon:        #ed4a13;
+@social-googleplus:         #2d2d2d;
+@social-facebook:           #2f4b93;
+@social-twitter:            #00bdef;
+@social-youtube:            #cd201f;
+@social-vimeo:              #1ab7ea;
+@social-soundcloud:         #ff8800;
+@social-spotify:            #2ebd59;
+@social-tumblr:             #35465c;
+@social-reddit:             #5f99cf;
+@social-vk:                 #45668e;
+@social-ok:                 #F58120;
+
+
+// Social button variants
+.social-button-variant(@color; @background) {
+  color: @color;
+  background-color: @background;
+
+  &:hover,
+  &:focus {
+    background-color: mix(@background, white, 80%);
+  }
+  &:active,
+  &.active {
+    background-color: mix(@background, black, 85%);
+  }
+}
+
+
+// Set the backgrounds
+// -------------------------
+.btn-social-pinterest {
+  .social-button-variant(@btn-default-color, @social-pinterest);
+}
+.btn-social-linkedin {
+  .social-button-variant(@btn-default-color, @social-linkedin)
+}
+.btn-social-stumbleupon {
+  .social-button-variant(@btn-default-color, @social-stumbleupon);
+}
+.btn-social-googleplus {
+  .social-button-variant(@btn-default-color, @social-googleplus);
+}
+.btn-social-facebook {
+  .social-button-variant(@btn-default-color, @social-facebook);
+}
+.btn-social-twitter {
+  .social-button-variant(@btn-default-color, @social-twitter);
+}
+
+.btn-social-tumblr {
+  .social-button-variant(@btn-default-color, @social-tumblr);
+}
+
+.btn-social-reddit {
+  .social-button-variant(#333, @social-reddit);
+}
+.btn-social-vk {
+  .social-button-variant(#333, @social-vk);
+}
+.btn-social-ok {
+  .social-button-variant(#333, @social-ok);
+}

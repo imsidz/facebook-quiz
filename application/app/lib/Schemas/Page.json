@@ -1,0 +1,45 @@
+{
+	"title" : {
+		"type": "text",
+		"title": "Page title",
+		"required": true,
+		"maxLength": 55
+	},
+	"urlString" : {
+		"type": "text",
+		"title": "Url string(example: a-page-of-content)",
+		"required": true
+	},
+	"description" : {
+		"type": "text",
+		"title": "Page's meta description",
+		"required": true,
+		"maxLength": 160
+	},
+	"content" : {
+		"type": "html",
+		"title": "Page content",
+		"required": true
+	},
+	"ogData" : {
+		"type": "object",
+		"required": true,
+		"title": "Open graph config",
+		"properties": {
+			"ogImage" : {
+				"type": "image",
+				"title": "Open graph image for the page"
+			},
+			"ogTitle" : {
+				"type": "text",
+				"title": "Open graph title for the page",
+				"maxLength": 55
+			},
+			"ogDescription" : {
+				"type": "text",
+				"title": "Open graph description for the page",
+				"maxLength": 160
+			}
+		}
+	}
+}

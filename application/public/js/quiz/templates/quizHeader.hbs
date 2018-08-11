@@ -1,0 +1,48 @@
+{{#if isWelcomePage}}
+    {{#with quizCurrentResultData}}
+        <div class="row boxed boxed-white shared-user-result-block {{#if ../quizSharedUserId}}has-shared-user-pic{{/if}}" style="line-height: 1.5em;">
+            {{#if ../quizSharedUserId}}<img src="http://graph.facebook.com/{{../../quizSharedUserId}}/picture?type=square&width=100" alt="" class="img-circle shared-user-pic">{{/if}}
+            <h2 class="text-center title"><strong>{{__ "hereIsTheResultIGot"}}</strong></h2>
+            <hr>
+            <div class="{{#if image}}col-md-6 {{else}} col-md-12 {{/if}}">
+                <div style="padding: 30px 0px;" class="text-center">
+                    <h1>{{title}}</h1>
+                </div>
+            </div>
+            {{#if image}}
+                <div class="col-md-6">
+                    <img src="{{contentUrl image}}" alt="" style="margin: 10px 0px;">
+                </div>
+            {{/if}}
+        </div>
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h1><strong>{{__ "nowTryYourselfAndLetMeKnowResult"}}</strong></h1>
+            </div>
+        </div>
+    {{/with}}
+{{/if}}
+<div class="row quiz-banner-head-row">
+    <div class="col-md-10 col-md-offset-1">
+        <div class="quiz-banner-container">
+            <img class="quiz-banner-img" src="{{contentUrl image}}" alt="">
+        </div>
+    </div>
+</div>
+<div class="row quiz-topic-head-row">
+    <div class="col-md-10 col-md-offset-1">
+        <h1 class="quiz-topic">{{topic}}</h1>
+        <p class="quiz-description">{{{description}}}</p>
+    </div>
+</div>
+{{#if pageContent}}
+    {{#if isWelcomePage}}
+        <div class="row quiz-page-content-row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="quiz-page-content">
+                    {{{pageContent}}}
+                </div>
+            </div>
+        </div>
+    {{/if}}
+{{/if}}

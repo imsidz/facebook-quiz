@@ -1,0 +1,17 @@
+# Packages
+/vendor
+/node_modules
+/build
+
+composer.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ide / editor
+.tags
+.idea/
+.setting
+.settings
+.project

@@ -1,0 +1,126 @@
+{
+	"type": "object",
+	"required": true,
+	"title": "Main Config",
+	"properties": {
+		"siteName" : {
+			"type": "text",
+			"title": "Site name",
+			"required": true
+		},
+		"siteTitle" : {
+			"type": "text",
+			"title": "Site home page's meta title",
+			"required": true
+		},
+		"siteDescription" : {
+			"type": "text",
+			"title": "Site home page's meta description",
+			"required": true
+		},
+		"enableUserLogin": {
+			"type": "boolean",
+			"title": "Enable user login",
+            "description": "You must configure Social login in 'Social media config' section below for user login to work",
+		  	"default" : "false"
+		},
+		"autoDetectLanguage": {
+			"type": "boolean",
+			"title": "Enable automatic language detection?",
+			"description": "[Applicable only when Multilingual mode is enabled.] User's language will be automatically detected and will be redirected to that particular language's sub-domain.",
+			"default": false
+		},
+	  	"logo" : {
+		  "type": "image",
+		  "title": "Logo",
+		  "required": false
+		},
+		"favicon" : {
+		  "type": "image",
+		  "title": "Favicon",
+		  "required": false
+		},
+		"navbarColor" : {
+		  "type": "string",
+		  "title": "Navbar color",
+		  "format": "color"
+		},
+		"mainBtnColor" : {
+		  "type": "string",
+		  "title": "Main button color",
+		  "format": "color"
+		},
+		"linkColor" : {
+		  "type": "string",
+		  "title": "Link color",
+		  "format": "color"
+		},
+		"ogData" : {
+			"type": "object",
+			"required": true,
+			"title": "Open graph config",
+			"properties": {
+				"siteOgImage" : {
+					"type": "image",
+					"title": "Open graph image for the home page",
+					"required": true
+				},
+				"siteOgTitle" : {
+					"type": "text",
+					"title": "Open graph title for the home page",
+					"maxLength": 55
+				},
+				"siteOgDescription" : {
+					"type": "text",
+					"title": "Open graph description for the home page",
+					"maxLength": 160
+				}
+			}
+		},
+		"social": {
+			"type": "object",
+			"required": true,
+			"title": "Social media config",
+			"properties": {
+				"facebook" : {
+					"type": "object",
+					"required": true,
+					"title": "Facebook",
+					"properties": {
+						"appId" : {
+							"type": "text",
+							"title": "App Id"
+						},
+						"secret" : {
+							"type": "text",
+							"title": "Secret"
+						},
+						"pageUrl" : {
+							"type": "text",
+							"title": "Page url"
+						}
+					}
+				}
+			}
+		},
+		"customCode": {
+		  "type": "object",
+		  "required": true,
+		  "title": "Custom code (HTML/JS/CSS) - <b class='text-danger'>Advanced!</b>",
+		  "properties": {
+			"head" : {
+			  "type": "textarea",
+			  "required": false,
+			  "title": "&lt; HEAD &gt; section code",
+			  "description": "<b class='text-danger'>(Not for HTML content to be displayed to user!)</b> Code to be included inside &lt;head&gt;&lt;/head&gt; tag. For META tags and JS/CSS file/snippet inclusions. For example 'Google analytics' code and Google webmaster verification meta tag.",
+			},
+			"foot" : {
+			  "type": "textarea",
+			  "required": false,
+			  "title": "Footer section code (just before closing &lt;/body&gt; tag)",
+			  "description": "Code to be included just before the  closing &lt;/body&gt; tag.",
+			}
+		  }
+		}
+	}
+}

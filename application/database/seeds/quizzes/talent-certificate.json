@@ -1,0 +1,50 @@
+{
+  "topic": "Your hidden talent certificate",
+  "image": "\/media\/certificates-for-you\/banner.jpg",
+  "description": "Find out what certificate you will get for your hidden talents!",
+  "pageContent": "",
+  "type": "random",
+  "questions": null,
+  "results": [
+    {
+      "id": "87bbd070-5d98-43ee-96ab-10e12ad129ff",
+      "title": "The best dancer in the world",
+      "image": "\/media\/certificates-for-you\/dancer.jpg",
+      "description": "",
+      "pointsToAward": ""
+    },
+    {
+      "id": "3065764c-c02c-402c-a243-729df86e25bf",
+      "title": "The most kind human alive.",
+      "image": "\/media\/certificates-for-you\/kind-human.jpg",
+      "description": "",
+      "pointsToAward": ""
+    },
+    {
+      "id": "eb0bae40-10ce-4ee3-b983-492f7c351682",
+      "title": "The sweetest voice in the world",
+      "image": "\/media\/certificates-for-you\/voice.jpg",
+      "description": "",
+      "pointsToAward": ""
+    }
+  ],
+  "ogImages": {
+    "main": "\/media\/certificates-for-you\/banner.jpg"
+  },
+  "active": true,
+  "created_at": "2017-04-17 06:50:48",
+  "updated_at": "2017-04-18 02:34:12",
+  "settings": {
+    "customStartQuizText": "Create now!",
+    "forceLogin": "disabled",
+    "loginPromptMessage": "",
+    "enableShareLock": "As per quiz config",
+    "showCorrectAnswerDuringQuiz": "As per quiz config",
+    "showCorrectAnswersAtTheEnd": "As per quiz config",
+    "addUserPicInResults": "true",
+    "userPicXPos": "265",
+    "userPicYPos": "185",
+    "userPicSize": "63"
+  },
+  "category": 1
+}

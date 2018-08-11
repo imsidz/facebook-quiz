@@ -1,0 +1,159 @@
+{
+	"active": {
+		"title": "Make the quiz visible to users?",
+		"type": "boolean",
+		"default": false
+	},
+    "category": {
+      "title": "Category",
+      "type": "number",
+      "required": false,
+      "enum": [
+      ]
+    },
+	"type" : {
+		"title": "Quiz Type",
+		"description": "Type of the quiz",
+		"type": "enum",
+		"required": true,
+		"enum": [
+			"prediction",
+			"scoreBased",
+            "random"
+		]
+	},
+	"topic": {
+		"title": "Topic",
+		"description": "The topic of the quiz",
+		"type": "text",
+		"required": true
+	},
+	"description": {
+		"title": "Description",
+		"description": "Something about the quiz (Max: 160 chars)",
+		"type": "textarea",
+	  	"maxLength" : 160
+	},
+	"pageContent": {
+		"title": "Page content",
+		"description": "The HTML content for the page",
+		"type": "html"
+	},
+	"questions": {
+		"type": "array",
+		"required": true,
+		"title": "Questions",
+		"items": {
+			"type": "object",
+			"title": "Question",
+			"description": "A question within the quiz",
+			"properties": {
+			}
+		}
+	},
+	"image": {
+		"title": "Banner",
+		"description": "The banner image for the quiz",
+		"type": "image",
+		"required": true
+	},
+	"settings": {
+		"title": "Settings",
+		"description": "The quiz settings",
+		"type": "object",
+		"required": true,
+		"properties": {
+			"customStartQuizText": {
+				"title": "Custom 'Start Quiz' button text",
+				"description": "Fill in this field if you want to show a different text for the start button of this quiz",
+				"type": "text"
+			},
+			"forceLogin" : {
+				"type": "text",
+				"title": "Force Login",
+				"description": "Require user to login while taking a quiz. Necessary for tracking users of a quiz. (Could be changed for each quiz)",
+				"required": true,
+				"enum": [
+					"disabled",
+					"on-quiz-start",
+					"before-result"
+				]
+			},
+			"loginPromptMessage": {
+				"type": "text",
+				"title": "Login prompt message",
+				"description": "Message to be shown to the user asking for logging in. (Leave it empty to use default message setting in 'Config' menu)"
+			},
+			"enableShareLock": {
+				"type": "enum",
+				"title": "Enable Facebook Share lock for viewing result",
+				"description": "If set to true, users are forced to share the quiz on Facebook to view results.",
+				"enum": [
+					"As per quiz config",
+					"Yes",
+					"No"
+				]
+			},
+			"showCorrectAnswerDuringQuiz": {
+				"type": "enum",
+				"title": "Show correct answer after every question (Only for score-based quizzes)",
+				"description": "If enabled, the user will be shown if his answer is right or wrong. If wrong, the correct answer will also be shown.",
+				"enum": [
+					"As per quiz config",
+					"Yes",
+					"No"
+				]
+			},
+			"showCorrectAnswersAtTheEnd": {
+				"type": "enum",
+				"title": "Show correct answers at the end of the quiz (Only for score-based quizzes)",
+				"description": "If enabled, a 'Show correct answers' button will be displayed after the quiz is finished which lets the user view all the correct answers",
+				"enum": [
+					"As per quiz config",
+					"Yes",
+					"No"
+				]
+			},
+			"addUserPicInResults": {
+				"type": "boolean",
+				"title": "Add the user's facebook profile picture on result images."
+			},
+			"userPicXPos": {
+				"type": "number",
+				"title": "X coordinate position to add profile picture on result images (In pixels). You can override this per quiz in quiz editor"
+			},
+			"userPicYPos": {
+				"type": "number",
+				"title": "Y coordinate position to add profile picture on result images (In pixels). You can override this per quiz in quiz editor"
+			},
+			"userPicSize": {
+				"type": "number",
+				"title": "The size (Width and height of a square photo) of the profile picture on result images (In pixels). You can override this per quiz in quiz editor"
+			}
+		}
+	},
+	"results": {
+		"title": "Results",
+		"description": "The results of the quiz - the conclusions",
+		"type": "array",
+		"required": true,
+		"items": {
+			"type": "object",
+			"title": "A Result",
+			"properties": {}
+		}
+	},
+	"ogImages": {
+		"title": "Open graph images",
+		"description": "The image preview to be displayed while sharing on Facebook and other social networks",
+		"type": "object",
+		"required": true,
+		"properties": {
+			"main": {
+				"type": "image",
+				"title": "Main OG Banner (1200 x 630)",
+			  	"description": "The image shown in FB newsfeed when a user shares it on Facebook. Use an attractive image that encourages users to click and take the quiz"
+			}
+		}
+	}
+}

@@ -1,0 +1,64 @@
+{
+  "topic": "How romantic are you based on your photo?",
+  "image": "\/media\/how-romantic-based-on-your-face\/banner.jpg",
+  "description": "Find out how romantic you are based on your photo!",
+  "pageContent": "",
+  "type": "random",
+  "questions": null,
+  "results": [
+    {
+      "id": "87bbd070-5d98-43ee-96ab-10e12ad129ff",
+      "title": "100%",
+      "image": "\/media\/how-romantic-based-on-your-face\/100.jpg",
+      "description": "",
+      "pointsToAward": ""
+    },
+    {
+      "id": "3065764c-c02c-402c-a243-729df86e25bf",
+      "title": "75%",
+      "image": "\/media\/how-romantic-based-on-your-face\/75.jpg",
+      "description": "",
+      "pointsToAward": ""
+    },
+    {
+      "id": "eb0bae40-10ce-4ee3-b983-492f7c351682",
+      "title": "88%",
+      "image": "\/media\/how-romantic-based-on-your-face\/88.jpg",
+      "description": "",
+      "pointsToAward": ""
+    },
+    {
+      "id": "ed694505-7ba1-4d73-9aa5-3db11dcf04fc",
+      "title": "99%",
+      "image": "\/media\/how-romantic-based-on-your-face\/99.jpg",
+      "description": "",
+      "pointsToAward": ""
+    },
+    {
+      "id": "34ac4c15-8c51-4382-a0fd-8f374d44a2d3",
+      "title": "97%",
+      "image": "\/media\/how-romantic-based-on-your-face\/97.jpg",
+      "description": "",
+      "pointsToAward": ""
+    }
+  ],
+  "ogImages": {
+    "main": "\/media\/how-romantic-based-on-your-face\/banner.jpg"
+  },
+  "active": true,
+  "created_at": "2017-04-18 02:33:28",
+  "updated_at": "2017-04-18 02:37:47",
+  "settings": {
+    "customStartQuizText": "Find out!",
+    "forceLogin": "disabled",
+    "loginPromptMessage": "",
+    "enableShareLock": "As per quiz config",
+    "showCorrectAnswerDuringQuiz": "As per quiz config",
+    "showCorrectAnswersAtTheEnd": "As per quiz config",
+    "addUserPicInResults": "true",
+    "userPicXPos": "366",
+    "userPicYPos": "87",
+    "userPicSize": "151"
+  },
+  "category": 1
+}

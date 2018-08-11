@@ -1,0 +1,17 @@
+{
+  "enableInfiniteScroll": "true",
+  "perPageLimit": "10",
+  "forceLogin": "disabled",
+  "loginPromptMessageOnQuizStart": "<h2 style=\"color: #f23333;\">Please login to start the quiz!<\/h2>",
+  "loginPromptMessageBeforeResult": "<h2 style=\"color: #f23333;\">Wow! Almost done!<\/h2>Please login to view your result!",
+  "comments": "disqus",
+  "disqusShortname": "socioquiz-local",
+  "showSharePromptModal": "true",
+  "showPageLikePrompt": "true",
+  "inactiveQuizVisibleViaLink": "true",
+  "showCorrectAnswerDuringQuiz": "true",
+  "showCorrectAnswersAtTheEnd": "true",
+  "youMayAlsoLikeShortCode": "[random_quizzes limit=\"10\"]",
+  "showResultScore": "true",
+  "enableShareLock": "false"
+}

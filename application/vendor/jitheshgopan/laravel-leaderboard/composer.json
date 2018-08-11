@@ -1,0 +1,14 @@
+{
+    "name": "jitheshgopan/laravel-leaderboard",
+    "description": "Points and Ranks for Eloquent models.",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*",
+        "illuminate/database": "5.1.*|5.2.*|5.3.*|5.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jitheshgopan\\Leaderboard\\": "src/"
+        }
+    }
+}

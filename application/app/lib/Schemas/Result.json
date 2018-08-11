@@ -1,0 +1,37 @@
+{
+	"id": {
+		"type": "hidden",
+		"title": "id"
+	},
+	"title": {
+		"type": "string",
+		"title": "Title",
+		"description": "A title for the result",
+	  	"required": true
+	},
+	"image": {
+		"type": "image",
+		"title": "Image",
+		"description": "An Image to express the result"
+	},
+	"description": {
+		"type": "html",
+		"title": "Description",
+		"description": "A description for the result"
+	},
+	"minScore": {
+		"title": "Minimum score percent",
+		"description": "Minimum % score to get this result",
+		"type": "range",
+		"default": 0,
+		"minimum": 0,
+      	"maximum": 100,
+		"step": 5,
+		"required": true
+	},
+    "pointsToAward": {
+      "type": "text",
+      "title": "Points to award",
+      "description": "Points to be awarded if the user gets this result"
+    }
+}

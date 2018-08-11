@@ -1,0 +1,31 @@
+<div class="panel panel-default panel-with-item-number">
+    <div class="panel-heading text-center">
+        <div class="panel-item-number">
+            <div class="badge">
+                {{serialNumber}}
+            </div>
+        </div>
+        <div class="panel-title panel-item-title">
+            {{question}}
+            {{^question}}
+                No title
+            {{/question}}
+        </div>
+    </div>
+    <div class="panel-body fill-image">
+        <div class="image-box">
+            {{#if image.length}}
+                <img src="{{contentUrl image}}" alt=""/>
+            {{else}}
+                <div style="line-height: 100px;">No Image</div>
+            {{/if}}
+        </div>
+    </div>
+    <div class="panel-footer text-center">
+        <div data-action="remove" class="btn btn-default btn-sm"><i class="text-danger fa fa-times"></i></div>
+        <div data-action="edit" class="btn btn-default btn-sm"><i class="fa fa-pencil"></i></div>
+        {{#skippable}}
+            <div class="label label-warning" style="border-radius: 30px;" data-toggle="tooltip" data-placement="top" title="Is skippable"><i class="fa fa-forward"></i></div>
+        {{/skippable}}
+    </div>
+</div>

@@ -1,0 +1,27 @@
+{
+  "siteName": "Super Quiz",
+  "siteTitle": "Super Quiz | Social quizzes",
+  "siteDescription": "Awesome quizes",
+  "enableUserLogin": "true",
+  "logo": "",
+  "favicon": "\/images\/sample-favicon.png",
+  "navbarColor": "#ff431a",
+  "mainBtnColor": "#ff8411",
+  "linkColor": "#ff4119",
+  "ogData": {
+    "siteOgImage": "-",
+    "siteOgTitle": "Super awesome Quizes",
+    "siteOgDescription": "Awesome quizes for fun"
+  },
+  "social": {
+    "facebook": {
+      "appId": "428230733994419",
+      "secret": "f04928f53df1e87d9ad7f316171743ff",
+      "pageUrl": ""
+    }
+  },
+  "customCode": {
+    "head": "",
+    "foot": ""
+  }
+}

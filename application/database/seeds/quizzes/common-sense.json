@@ -1,0 +1,459 @@
+{
+  "topic": "Can You Answer these 10 Basic Common Sense Questions?",
+  "image": "\/media\/common-sense\/banner.jpg",
+  "description": "How good is your common sense? Test it with these 10 tricky questions.",
+  "pageContent": "",
+  "type": "scoreBased",
+  "questions": [
+    {
+      "question": "A plane crashes on the United States\/Canada border. Where are the survivors buried?",
+      "description": "<p><br><\/p>",
+      "image": "\/media\/common-sense\/plane.jpg",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "They aren't",
+          "image": "",
+          "correct": "true",
+          "id": "2284535b-f55b-4316-a2e9-61c1fb76e185",
+          "boxColor": "blue"
+        },
+        {
+          "type": "simple",
+          "title": "The United States",
+          "image": "",
+          "correct": "false",
+          "id": "75400a99-3931-44be-9f12-d4db76126411",
+          "boxColor": "green"
+        },
+        {
+          "type": "simple",
+          "title": "Canada",
+          "image": "",
+          "correct": "false",
+          "id": "844dff93-c2ce-4670-9e04-0e15a05c7517",
+          "boxColor": "turquoise"
+        },
+        {
+          "type": "simple",
+          "title": "On the border",
+          "image": "",
+          "correct": "false",
+          "id": "e745b208-1d1b-4c56-8961-3b76988284a9",
+          "boxColor": "blue"
+        },
+        {
+          "type": "simple",
+          "title": "None of the above",
+          "image": "",
+          "correct": "false",
+          "id": "d4b9b324-a4bc-4ba9-ba58-03383c8b1f05",
+          "boxColor": "yellow"
+        }
+      ],
+      "skippable": "false",
+      "id": "44df6f6e-9a34-4cfb-a33e-e28fbdef7067",
+      "index": "0"
+    },
+    {
+      "question": "What\u2019s the difference between the 2 words: \u201cRACECAR\u201d and \u201cRACECAR\u201d ?",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "They are both spelled wrong!",
+          "image": "",
+          "correct": "false",
+          "id": "a47a2109-94d9-44a7-bb12-cd712ae5cdf6",
+          "boxColor": "red"
+        },
+        {
+          "type": "simple",
+          "title": "One\u2019s backward",
+          "image": "",
+          "correct": "true",
+          "id": "e496853d-8cc5-4a47-90fa-df77eadb9273",
+          "boxColor": "green"
+        },
+        {
+          "type": "simple",
+          "title": "Nothing",
+          "image": "",
+          "correct": "false",
+          "id": "3523954c-537e-4879-b245-9f55578b6a28",
+          "boxColor": "yellow"
+        }
+      ],
+      "skippable": "false",
+      "id": "880441ce-ecd0-4409-a7fb-5103184ecada",
+      "index": "1"
+    },
+    {
+      "question": "A farmer has 13 cows. A bolt of lightning kills all but 5 of them. How many cows survived?",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "Five",
+          "image": "",
+          "correct": "true",
+          "id": "d53587ce-4a6e-4c8a-882e-033144cecd38",
+          "boxColor": "blue"
+        },
+        {
+          "type": "simple",
+          "title": "Zero",
+          "image": "",
+          "correct": "false",
+          "id": "79f92009-842f-44c2-9cf8-14f4b97244bc",
+          "boxColor": "turquoise"
+        },
+        {
+          "type": "simple",
+          "title": "Eight",
+          "image": "",
+          "correct": "false",
+          "id": "b1687296-288c-4dab-ad0e-a0137619fdfc",
+          "boxColor": "green"
+        }
+      ],
+      "skippable": "false",
+      "id": "98777f70-0462-4b54-ac01-f279b965793e",
+      "index": "2"
+    },
+    {
+      "question": "You enter a room. You have 1 matchstick. You are about to nearly freeze to death and starve. In the room you find good meat and dough. There is a gas stove, a fireplace with wood, and a lantern. What do you light first?",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "STOVE",
+          "image": "",
+          "correct": "false",
+          "id": "4414e04e-4d61-48cd-ac56-ddd6feafe514",
+          "boxColor": "green"
+        },
+        {
+          "type": "simple",
+          "title": "FIRE PLACE ",
+          "image": "",
+          "correct": "false",
+          "id": "d4a96f3f-f671-4bed-b4bc-5e8ea36ac0ae",
+          "boxColor": "turquoise"
+        },
+        {
+          "type": "simple",
+          "title": "NONE OF ABOVE",
+          "image": "",
+          "correct": "true",
+          "id": "989892fe-7f29-4042-a531-2a1a35e16e9d",
+          "boxColor": "blue"
+        }
+      ],
+      "skippable": "false",
+      "id": "01392a6b-6752-4b78-be87-c539389c5681",
+      "index": "3"
+    },
+    {
+      "question": "How many times can you take 5 from 25?",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "5",
+          "image": "",
+          "correct": "false",
+          "id": "9ca35ae3-ecb0-4829-b704-d3fe2a915d76",
+          "boxColor": "yellow"
+        },
+        {
+          "type": "simple",
+          "title": "4",
+          "image": "",
+          "correct": "false",
+          "id": "20bb4b0a-0e94-4866-beb1-2ec586d948af",
+          "boxColor": "yellow"
+        },
+        {
+          "type": "simple",
+          "title": "3",
+          "image": "",
+          "correct": "false",
+          "id": "83a7793d-dce7-4f9a-9d77-b94b1e37aa72",
+          "boxColor": "red"
+        },
+        {
+          "type": "simple",
+          "title": "1",
+          "image": "",
+          "correct": "true",
+          "id": "4846e8c7-9295-40d2-84db-504412eae595",
+          "boxColor": "turquoise"
+        }
+      ],
+      "skippable": "false",
+      "id": "b879860e-9f1b-42cb-9c79-6e69772776f8",
+      "index": "4"
+    },
+    {
+      "question": "Some months have 31 days. Some have 30. How many have 28?",
+      "description": "<p><br><\/p>",
+      "image": "\/media\/common-sense\/calendar.jpg",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "1",
+          "image": "",
+          "correct": "false",
+          "id": "69bc8988-d47c-4730-918e-c742dcdae2d5",
+          "boxColor": "green"
+        },
+        {
+          "type": "simple",
+          "title": "3",
+          "image": "",
+          "correct": "false",
+          "id": "a03ac750-f669-48da-9cbc-190264be8cbc",
+          "boxColor": "turquoise"
+        },
+        {
+          "type": "simple",
+          "title": "12",
+          "image": "",
+          "correct": "true",
+          "id": "c422f0f7-98d8-4e65-ac16-d21acf6f1ceb",
+          "boxColor": "blue"
+        }
+      ],
+      "skippable": "false",
+      "id": "3f57c607-a356-4918-a528-1bd962ae05c9",
+      "index": "5"
+    },
+    {
+      "question": "Who makes it has no need for it, who buys it has no use for it. Who uses, can\u2019t  see it or feel it. What is it?",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "umm\u2026 a present for someone else!",
+          "image": "",
+          "correct": "false",
+          "id": "c1143833-1f9e-496e-90d0-362d63b82418"
+        },
+        {
+          "type": "simple",
+          "title": "A coffin",
+          "image": "",
+          "correct": "true",
+          "id": "641ea6f9-ad51-4f68-870f-311f20f114db"
+        },
+        {
+          "type": "simple",
+          "title": "Clothes",
+          "image": "",
+          "correct": "false",
+          "id": "3dd74b76-11ff-4f42-aa42-b7fe01f49978"
+        },
+        {
+          "type": "simple",
+          "title": "None of these",
+          "image": "",
+          "correct": "false",
+          "id": "c4cd56e7-aa65-43f3-bb49-793c59e72fca"
+        }
+      ],
+      "skippable": "false",
+      "id": "fa2eeada-bc96-4812-8d36-e165fd27cd3a",
+      "index": "6"
+    },
+    {
+      "question": "I am my father\u2019s child, mother\u2019s child, yet nobody\u2019s son \u2026.who\/what am I?",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "Shadow",
+          "image": "",
+          "correct": "false",
+          "id": "03ee8551-9172-44c1-871d-3ced7a466468"
+        },
+        {
+          "type": "simple",
+          "title": "Dreams",
+          "image": "",
+          "correct": "false",
+          "id": "25f99fe4-3767-4eb5-97d2-ebb2ad52a407"
+        },
+        {
+          "type": "simple",
+          "title": "Their pet",
+          "image": "",
+          "correct": "false",
+          "id": "f15a20fe-5f3e-4d33-9ca0-db8156d2e3e3"
+        },
+        {
+          "type": "simple",
+          "title": "Their daughter",
+          "image": "",
+          "correct": "true",
+          "id": "7cb3e34c-978d-4671-a80f-fa6a60c04070"
+        }
+      ],
+      "skippable": "false",
+      "id": "54ee3eb5-0a47-4ca2-b123-5193a2aaa3e1",
+      "index": "7"
+    },
+    {
+      "question": "A man is about to be put to death and the judge said the man could choose how his death should be, but he walks out of the room unharmed. What did he choose?",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "He wanted to drown, but there was no river",
+          "image": "",
+          "correct": "false",
+          "id": "cb9ad36a-d773-4db7-aca6-5b84ad2681db"
+        },
+        {
+          "type": "simple",
+          "title": "Death by Do-do but there's no do-dos (Clever ;))",
+          "image": "",
+          "correct": "false",
+          "id": "fe8a3495-e809-4b88-8444-7ba54b61d7ba"
+        },
+        {
+          "type": "simple",
+          "title": "Old age death!",
+          "image": "",
+          "correct": "true",
+          "id": "93bfa7b9-6c6d-4dc6-bba0-24c2459b9163"
+        }
+      ],
+      "skippable": "false",
+      "id": "48ed5d23-4c5b-4a68-9043-34b182119b94",
+      "index": "8"
+    },
+    {
+      "question": "Is it legal for a man in California to marry his widow's sister? ",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "Yes, as long as she is alive. ",
+          "image": "",
+          "correct": "false",
+          "id": "8d6dd1b2-52d3-4f0d-a2f3-3002b79b1796"
+        },
+        {
+          "type": "simple",
+          "title": "Yes, if the man is from California. ",
+          "image": "",
+          "correct": "false",
+          "id": "104efbb9-be41-4390-a122-890fe0758ab6"
+        },
+        {
+          "type": "simple",
+          "title": "You can't marry like this in California. ",
+          "image": "",
+          "correct": "false",
+          "id": "199b28fa-cea1-48bf-a92d-e88e98b46c08"
+        },
+        {
+          "type": "simple",
+          "title": "No, the man would be dead.",
+          "image": "",
+          "correct": "true",
+          "id": "85c1c674-c016-42b8-8cb9-72bcc842ce26"
+        }
+      ],
+      "skippable": "false",
+      "id": "a0404c82-ef56-41d8-b9fe-9b454db5ea6b",
+      "index": "9"
+    }
+  ],
+  "results": [
+    {
+      "id": "586492a5-90cb-4276-8f36-ecbd3d0c67b2",
+      "title": "100% - WOW!! Excellent!",
+      "image": "\/media\/common-sense\/respect.jpg",
+      "description": "You are really amazing! You got all the questions right! Unbelievable!&nbsp;Majority of people score below 40%!&nbsp;We know this test is really tough and tricky.&nbsp;But you cracked it all!&nbsp;We really bow down to you! Go&nbsp;challenge anyone in the world, you are the one who is gonna win! You are simply unbeatable!",
+      "minScore": "100"
+    },
+    {
+      "id": "0ab75708-9601-4c1a-b00a-687beee11280",
+      "title": "90% - WOW! Awesome!",
+      "image": "\/media\/common-sense\/respect.jpg",
+      "description": "Great! You got 90%!&nbsp;Majority of people score below 40%!&nbsp;We know this test is really tough and tricky.&nbsp;You really have great common sense! Be proud of it! With such a common&nbsp;sense(which is not too common nowadays), you deserve to be respected! Be proud and let the world know it!",
+      "minScore": "90"
+    },
+    {
+      "id": "fef2a0cf-df1d-4c86-8465-8f2d3c208635",
+      "title": "80% - Great!",
+      "image": "\/media\/common-sense\/respect.jpg",
+      "description": "Great! You got 80%!&nbsp;Majority of people score below 40%!&nbsp;We know this test is really tough and tricky.&nbsp;But&nbsp;you really have a great common sense! Be proud of it!&nbsp;With such a&nbsp;common sense (which is not too common nowadays), you deserve to be respected! Be proud and let the world know it!",
+      "minScore": "80"
+    },
+    {
+      "id": "db6c25a0-9604-4078-9ebc-d6876aa43ac5",
+      "title": "70% - Wow! Too Good!",
+      "image": "\/media\/common-sense\/thumbsup.jpg",
+      "description": "<p>Great! You got 70%! You really have a great common sense!&nbsp;<span style=\"line-height: 1.42857143;\">Majority of people score below 40%!&nbsp;<\/span><span style=\"line-height: 1.42857143;\">We know this test is really tough and tricky.&nbsp;<\/span><span style=\"line-height: 1.42857143;\">People having such a good common sense is not too common nowadays. But you are one! Wow! Be proud and let the world know it!<\/span><\/p><p>Well, we believe you could score higher if you&nbsp;take this test again with more concentration because you have the potential. Click the link below to try it again.<span style=\"line-height: 1.42857143;\">&nbsp;<\/span><span style=\"line-height: 1.42857143;\">And this time, keep in mind that the questions may be too tricky.<\/span><\/p>",
+      "minScore": "70"
+    },
+    {
+      "id": "db8a43eb-9ebc-4b53-af4e-fc8a51a2ce49",
+      "title": "60% - Good! But, May be you gotta take this test again!",
+      "image": "\/media\/common-sense\/thumbsup.jpg",
+      "description": "Wow! Its a really good score. Seriously!&nbsp;Majority of people score below 40%!&nbsp;We know this test is really tough and tricky. You really have a great common sense.&nbsp;But it seems like you weren't careful enough while&nbsp;taking it. You dint expect the questions will be so tricky. But they really are.&nbsp;No problem.&nbsp;Try&nbsp;it again and we are sure you'll be on top. Click the link below to try again.&nbsp;And this time, keep in mind that the questions may be too tricky.",
+      "minScore": "60"
+    },
+    {
+      "id": "4a33e983-8f7c-4a91-8617-5d20767570f3",
+      "title": "50% - Cool! But, May be you could take this test again!",
+      "image": "\/media\/common-sense\/thumbsup.jpg",
+      "description": "Its a good score! Seriously!&nbsp;You know what, this test is really tough and tricky.&nbsp;Majority of people score below 40%!&nbsp;You really have a good&nbsp;common sense. But it seems like you weren't careful enough while taking it.&nbsp;You dint expect the questions will be so tricky. But they really are.&nbsp;No problem. Try&nbsp;it again and we are sure you'll be on top. Click the link below to try again.&nbsp;And this time, keep in mind that the questions may be too tricky.",
+      "minScore": "50"
+    },
+    {
+      "id": "7a2107ae-6088-42c0-96eb-c8d21003fbe8",
+      "title": "40% - Cool! But, May be you could take this test again!",
+      "image": "",
+      "description": "Its a pretty nice score!&nbsp;Majority of people score below 40%!&nbsp;We know this test is really tough and tricky.&nbsp;You have a good common sense! But it seems like you weren't careful enough while taking it.&nbsp;You dint expect the questions will be so tricky. But they really are.&nbsp;No&nbsp;problem. Try it again and we are sure you'll be on top. Click the link below&nbsp;to try again.&nbsp;And this time, keep in mind that the questions may be too tricky.",
+      "minScore": "40"
+    },
+    {
+      "id": "c857a86f-5831-47ea-943b-e7028a155871",
+      "title": "Below 40%",
+      "image": "",
+      "description": "We know this test is really tough and tricky. Majority of people score below 40%! Its might not be exactly because you don't have much common sense. It could be because you took it not so seriously and you weren't careful enough while answering. You dint expect the questions will be so tricky. But they really are. Don't worry! You could try it again and we are sure you'll be on top. Click the link below to try again. And this time, keep in mind that the questions may be too tricky.",
+      "minScore": "0"
+    }
+  ],
+  "ogImages": {
+    "main": "\/media\/common-sense\/og-new.jpg",
+    "586492a5-90cb-4276-8f36-ecbd3d0c67b2": "\/media\/common-sense\/result-og.jpg",
+    "0ab75708-9601-4c1a-b00a-687beee11280": "\/media\/common-sense\/result-og.jpg",
+    "fef2a0cf-df1d-4c86-8465-8f2d3c208635": "\/media\/common-sense\/result-og.jpg",
+    "db6c25a0-9604-4078-9ebc-d6876aa43ac5": "\/media\/common-sense\/result-og.jpg",
+    "db8a43eb-9ebc-4b53-af4e-fc8a51a2ce49": "\/media\/common-sense\/result-og.jpg",
+    "4a33e983-8f7c-4a91-8617-5d20767570f3": "\/media\/common-sense\/result-og.jpg",
+    "7a2107ae-6088-42c0-96eb-c8d21003fbe8": "\/media\/common-sense\/result-og.jpg",
+    "c857a86f-5831-47ea-943b-e7028a155871": "\/media\/common-sense\/result-og.jpg"
+  },
+  "active": true,
+  "created_at": "2015-03-01 08:48:39",
+  "updated_at": "2016-05-19 10:30:36",
+  "settings": {
+    "forceLogin": "on-quiz-start",
+    "loginPromptMessage": ""
+  },
+  "category": 2
+}

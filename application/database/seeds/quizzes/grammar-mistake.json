@@ -1,0 +1,375 @@
+{
+  "topic": "Can You Answer These Common Grammar Mistake Questions?",
+  "image": "media\/grammar-mistakes\/banner.jpg",
+  "description": "Ever wondered how good is your English Grammar? Find it out with this simple quiz!",
+  "pageContent": "",
+  "type": "scoreBased",
+  "questions": [
+    {
+      "question": "Who is the person in charge at a high school?",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "Principal",
+          "image": "",
+          "correct": "true",
+          "id": "385f4571-3525-47fc-963c-b999147ebc1a"
+        },
+        {
+          "type": "simple",
+          "title": "Principle",
+          "image": "",
+          "correct": "false",
+          "id": "58ed41cb-d3f3-4d30-b314-4e6855c44994"
+        },
+        {
+          "type": "simple",
+          "title": "Princepal",
+          "image": "",
+          "correct": "false",
+          "id": "bedecac8-b39a-4e5f-9a0a-be8847d2f03b"
+        }
+      ],
+      "skippable": "false",
+      "id": "06c75e34-2643-4f6d-8330-77eb6deef904",
+      "index": "0"
+    },
+    {
+      "question": "What is the past tense of the word \u201clie\u201d?",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "Laid",
+          "image": "",
+          "correct": "false",
+          "id": "13540f2f-d296-4af2-88dc-c088b690602f"
+        },
+        {
+          "type": "simple",
+          "title": "Lay",
+          "image": "",
+          "correct": "true",
+          "id": "e76edf16-bfeb-4a2f-a0a9-f70049957080"
+        }
+      ],
+      "skippable": "false",
+      "id": "f4359348-6ed6-4efb-8225-9db6652e976c",
+      "index": "1"
+    },
+    {
+      "question": "\u201cI consulted an attorney _____ I met in New York.\u201d Which of these \u201cwho\u201d words is the correct grammatical usage?",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "Whom",
+          "image": "",
+          "correct": "true",
+          "id": "dac7f3ee-777a-48a1-9f3d-8f818ad2ca05"
+        },
+        {
+          "type": "simple",
+          "title": "Who",
+          "image": "",
+          "correct": "false",
+          "id": "f87c43ff-3dab-4acc-8d6b-4ba1ad98fddc"
+        }
+      ],
+      "skippable": "false",
+      "id": "920d321f-c110-45ee-9198-b53a0544e335",
+      "index": "2"
+    },
+    {
+      "question": "When your favorite team does not win the big game, they:",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "Loose",
+          "image": "",
+          "correct": "false",
+          "id": "28f9a421-c0c6-4125-bd83-98e18ef3cbd7"
+        },
+        {
+          "type": "simple",
+          "title": "Lose",
+          "image": "",
+          "correct": "true",
+          "id": "47803cbc-f0c1-4022-a589-6d11a518d5f9"
+        }
+      ],
+      "skippable": "false",
+      "id": "e3c04230-d3f8-4a5b-9559-5388c1227a64",
+      "index": "3"
+    },
+    {
+      "question": "Pick the correct one:",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "Where I can find a bank?",
+          "image": "",
+          "correct": "false",
+          "id": "330c6a47-3eb3-4145-a65f-fba21c6c6877"
+        },
+        {
+          "type": "simple",
+          "title": "Where can I find a bank?",
+          "image": "",
+          "correct": "true",
+          "id": "de22df21-8870-42d7-a043-77206eb00428"
+        }
+      ],
+      "skippable": "false",
+      "id": "ea732914-ab0d-49b0-8aec-a2a0e116bad8",
+      "index": "4"
+    },
+    {
+      "question": "Who or whom? Which sentence below incorrectly uses \u201cwhom\u201d?",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "Whom did you tell about this quiz?",
+          "image": "",
+          "correct": "false",
+          "id": "9b1523d7-a073-4b13-9b7e-6267e2edde37"
+        },
+        {
+          "type": "simple",
+          "title": "Whom told you about this quiz?",
+          "image": "",
+          "correct": "true",
+          "id": "c61c61ed-23f8-4604-803f-5a9f935ce9a5"
+        },
+        {
+          "type": "simple",
+          "title": "Can you tell us to whom you wish to speak?",
+          "image": "",
+          "correct": "false",
+          "id": "711eae82-b9fc-4f28-a9a2-8face08c6ba6"
+        },
+        {
+          "type": "simple",
+          "title": "I recently met an old friend, with whom I used to go to school.",
+          "image": "",
+          "correct": "false",
+          "id": "317d2f87-8674-4fdb-9c7c-1d57b0130a61"
+        }
+      ],
+      "skippable": "false",
+      "id": "a580ab09-97ea-4ff2-bf6d-b8ac940656f2",
+      "index": "5"
+    },
+    {
+      "question": "Pick the correct one:",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "Sixty miles are a good distance.",
+          "image": "",
+          "correct": "false",
+          "id": "fad974de-4584-446a-8df5-338e2f966f19"
+        },
+        {
+          "type": "simple",
+          "title": "Sixty miles is a good distance",
+          "image": "",
+          "correct": "true",
+          "id": "ca183146-ac75-427a-beb7-3b409c841575"
+        }
+      ],
+      "skippable": "false",
+      "id": "9a984e8f-eda7-4990-857a-923e03e3d493",
+      "index": "6"
+    },
+    {
+      "question": "Pick the correct one:",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "Accommodate",
+          "image": "",
+          "correct": "true",
+          "id": "714a734a-04f6-4b38-b7cb-1907874a6eca"
+        },
+        {
+          "type": "simple",
+          "title": "Accomodate",
+          "image": "",
+          "correct": "false",
+          "id": "980e0b0b-fce6-45b5-a9b9-24a54031a439"
+        },
+        {
+          "type": "simple",
+          "title": "Acommodate",
+          "image": "",
+          "correct": "false",
+          "id": "dda8d6f4-bf98-44ff-aac3-c45d644277af"
+        },
+        {
+          "type": "simple",
+          "title": "Acomodate",
+          "image": "",
+          "correct": "false",
+          "id": "cd59b4bd-56f3-4fd4-9046-cc4958a74e16"
+        }
+      ],
+      "skippable": "false",
+      "id": "a86e4ba4-f46e-456b-a80e-5939f3133e39",
+      "index": "7"
+    },
+    {
+      "question": "Pick the correct one:",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "Agressive",
+          "image": "",
+          "correct": "false",
+          "id": "3593317c-e147-4025-a74f-05f97ddf736a"
+        },
+        {
+          "type": "simple",
+          "title": "Aggressive",
+          "image": "",
+          "correct": "true",
+          "id": "72180bd2-0d1e-4980-b58f-b5db1752fd88"
+        },
+        {
+          "type": "simple",
+          "title": "Aggresive",
+          "image": "",
+          "correct": "false",
+          "id": "a5924599-11e3-439d-a811-fe79a0ac16b6"
+        },
+        {
+          "type": "simple",
+          "title": "Agressive",
+          "image": "",
+          "correct": "false",
+          "id": "3ce8f549-21e0-4343-9a72-ecaec2063100"
+        }
+      ],
+      "skippable": "false",
+      "id": "99d5b3dc-748b-41f6-b210-ee252db62cc4",
+      "index": "8"
+    },
+    {
+      "question": "Fill in \u201cIf i _____ a boy\u201d",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "was",
+          "image": "",
+          "correct": "true",
+          "id": "431a552d-536c-48ae-bb2f-94fdefd81cd9"
+        },
+        {
+          "type": "simple",
+          "title": "Were",
+          "image": "",
+          "correct": "false",
+          "id": "5d32f118-c482-48b7-a79a-88abae8d058a"
+        }
+      ],
+      "skippable": "false",
+      "id": "2e580f80-ae6d-47ab-b1c9-b1c2209e80b5",
+      "index": "9"
+    }
+  ],
+  "results": [
+    {
+      "id": "2ff2a77f-eeb4-428f-8b4b-528ea74a8bcf",
+      "title": "100% - WOW!! Excellent!",
+      "image": "\/media\/grammar-mistakes\/respect.jpg",
+      "description": "<p>You are really amazing! You got all the questions right! Your grammar is perfect. Those were a bunch of questions most of the people never get right! But you cracked it all! Excellent!&nbsp;<span style=\"line-height: 1.42857143;\">Be proud of it!<\/span><br><\/p>",
+      "minScore": "100"
+    },
+    {
+      "id": "917148c7-4e9b-4f2e-99c5-d1905ed492e7",
+      "title": "90% - WOW! Awesome!",
+      "image": "\/media\/grammar-mistakes\/respect.jpg",
+      "description": "<p>Great! You got 90%!&nbsp;<span style=\"line-height: 1.42857143;\">&nbsp;<\/span><span style=\"line-height: 1.42857143;\">Those were a bunch of questions most of the people never get right!<\/span><span style=\"line-height: 1.42857143;\">&nbsp;<\/span><span style=\"line-height: 1.42857143;\">You grammar is really great! Be proud and let the world know it!<\/span><\/p>",
+      "minScore": "90"
+    },
+    {
+      "id": "0e05cd26-00e3-4964-a23b-53c887181ace",
+      "title": "80% - Great!",
+      "image": "\/media\/grammar-mistakes\/respect.jpg",
+      "description": "<p>Great! You got 80%! Your grammar is really great! Be proud and let the world know it!<br><\/p>",
+      "minScore": "80"
+    },
+    {
+      "id": "112e4aba-46b9-43da-975f-5c0b56554ea1",
+      "title": "70% - Wow! Too Good!",
+      "image": "\/media\/grammar-mistakes\/thumbsup.jpg",
+      "description": "<p>Great! You got 70%!&nbsp;Your grammar is really great! Be proud and let the world know it!<\/p>",
+      "minScore": "70"
+    },
+    {
+      "id": "44d1a445-02a9-4632-ab82-1e5c80cd2a2c",
+      "title": "60% - Great!",
+      "image": "\/media\/grammar-mistakes\/thumbsup.jpg",
+      "description": "<p>Great! You got 60%!&nbsp;Your grammar is really great! Be proud and let the world know it!<br><\/p>",
+      "minScore": "60"
+    },
+    {
+      "id": "c04ebba5-292b-42c5-8afa-7f196c18b5ce",
+      "title": "50% - Good!",
+      "image": "\/media\/grammar-mistakes\/thumbsup.jpg",
+      "description": "<p>Great! You got 50%!&nbsp;Your grammar is really good! Be proud and let the world know it!<br>Or you could take this test again and get an awesome score!<br><\/p>",
+      "minScore": "50"
+    },
+    {
+      "id": "4a2161bd-cacb-42a8-8060-051d37c8d0f6",
+      "title": "40% - Cool! But, May be you could take this test again!",
+      "image": "\/media\/grammar-mistakes\/thumbsup.jpg",
+      "description": "<p>Great! You got 40%!&nbsp;Your grammar is good! But, May be you could take this test again and get an awesome score!<br><\/p>",
+      "minScore": "40"
+    },
+    {
+      "id": "392e8926-c56b-4d44-a6af-2815512f4d36",
+      "title": "Below 40%",
+      "image": "",
+      "description": "<p>May be you were not really careful while taking the test! Try it again and you might get an awesome score!<br><\/p>",
+      "minScore": "0"
+    }
+  ],
+  "ogImages": {
+    "main": "\/media\/grammar-mistakes\/og.jpg",
+    "2ff2a77f-eeb4-428f-8b4b-528ea74a8bcf": "\/media\/grammar-mistakes\/result-og.jpg",
+    "917148c7-4e9b-4f2e-99c5-d1905ed492e7": "\/media\/grammar-mistakes\/result-og.jpg",
+    "0e05cd26-00e3-4964-a23b-53c887181ace": "\/media\/grammar-mistakes\/result-og.jpg",
+    "112e4aba-46b9-43da-975f-5c0b56554ea1": "\/media\/grammar-mistakes\/result-og.jpg",
+    "44d1a445-02a9-4632-ab82-1e5c80cd2a2c": "\/media\/grammar-mistakes\/result-og.jpg",
+    "c04ebba5-292b-42c5-8afa-7f196c18b5ce": "\/media\/grammar-mistakes\/result-og.jpg",
+    "4a2161bd-cacb-42a8-8060-051d37c8d0f6": "\/media\/grammar-mistakes\/result-og.jpg",
+    "392e8926-c56b-4d44-a6af-2815512f4d36": "\/media\/grammar-mistakes\/result-og.jpg"
+  },
+  "active": true,
+  "created_at": "2015-03-01 08:33:03",
+  "updated_at": "2016-05-19 10:30:20",
+  "settings": {
+    "forceLogin": "on-quiz-start",
+    "loginPromptMessage": ""
+  },
+  "category": 2
+}

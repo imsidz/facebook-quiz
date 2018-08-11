@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-md-offset-2 col-md-8 col-xs-12 col-sm-12">
+  <h2>{{__ "correctAnswers"}}</h2>
+<ol style="margin: 30px 0px; list-style: decimal;" class="text-left">
+{{#each questions}}
+	<li>
+	<p>
+	<strong>{{question}}</strong><br>
+		{{answer}}
+		{{#if image}}
+			<br><img src="{{contentUrl image}}" alt="" style="max-width: 200px; max-height: 200px;">
+		{{/if}}
+	</li>
+	</p>
+{{/each}}
+</ol>

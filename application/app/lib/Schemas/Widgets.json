@@ -1,0 +1,44 @@
+{
+	"type": "array",
+	"required": true,
+	"title": "Widget placements",
+	"items": {
+		"type": "object",
+		"title": "Widget placement",
+		"properties": {
+			"id": {
+				"type": "text",
+				"title": "Widget placement id"
+			},
+			"name" : {
+				"type": "text",
+				"title": "Widget placement name"
+			},
+			"widgets": {
+				"type": "array",
+				"items": {
+					"type": "object",
+					"title": "widget",
+					"properties": {
+						"title" : {
+							"type": "text",
+							"title": "Widget title",
+						  	"description": "Just for you to identify. Not displayed to users"
+						},
+						"content":{
+							"type": "html",
+							"title": "Widget content",
+                            "description":  "You can add any of the available shortcodes too. <a href='#' data-refer-shortcodes='true'>Click here to see available shortcodes</a>",
+							"required": true
+						},
+					  	"disabled": {
+						  "type": "boolean",
+						  "title": "Disabled?",
+						  "default" : false
+						}
+					}
+				}
+			}
+		}
+	}
+}

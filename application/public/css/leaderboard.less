@@ -1,0 +1,218 @@
+@userImageSize : 50px;
+.leaderboard-widget{
+
+  max-width: 300px;
+  .panel-leaderboard {
+    border: none;
+  }
+  .panel-leaderboard > .panel-heading {
+    color: #FFFFFF;
+    background-color: #FF3B22;
+    border-color: transparent;
+    font-weight: bold;
+
+  }
+  .user-list {
+    list-style-type: none;
+    -webkit-padding-start: 0px;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .user-row {
+    margin: 10px 0px;
+  }
+  .user-image-box {
+    height: @userImageSize;
+    position: relative;
+  }
+  .user-img {
+    width: @userImageSize;
+    height: @userImageSize;
+  }
+  .user-rank {
+    @height : 20px;
+    border: 1px solid #fff;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    height: @height;
+    line-height: @height - 2;
+    margin-top: -10px;
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    text-align: center;
+    width: 20px;
+  }
+  .user-details{
+    vertical-align: top;
+    padding-left: 10px;
+    margin-top: 5px;
+    overflow-x: hidden;
+  }
+  .user-name {
+    margin-bottom: .3em;
+    font-weight: bold;
+    font-size: medium;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+  }
+  .user-points-value {
+    font-weight: bold;
+  }
+  .user-points {
+    line-height: 1.4em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    .star-icon {
+      margin-right: 3px;
+      vertical-align: middle;
+    }
+  }
+
+  .rank-beyond-5 {
+    display: none;
+  }
+
+  .panel-footer {
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    border: none !important;
+  }
+
+  .expand-btn-text {
+    display: block;
+  }
+  .contract-btn-text{
+    display: none;
+  }
+
+  .view-leaderboard-btn {
+    display: none;
+  }
+  &.expanded {
+    .rank-beyond-5 {
+      display: block;
+    }
+    .expand-btn-text {
+      display: none;
+    }
+    .contract-btn-text{
+      display: block;
+    }
+    .view-leaderboard-btn {
+      display: block;
+    }
+  }
+  .leaderboard-banner {
+    width: 100%;
+  }
+}
+
+.leaderboard {
+  .user-list {
+    list-style-type: none;
+    -webkit-padding-start: 0px;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .user-row {
+    margin: 10px 0px;
+    padding: 0px 0px 10px;
+    border-bottom: solid 1px #eee;
+  }
+  .user-image-box {
+    height: @userImageSize;
+    position: relative;
+  }
+  .user-img {
+    width: @userImageSize;
+    height: @userImageSize;
+  }
+  .user-rank {
+    @height : 20px;
+    border: 1px solid #fff;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    height: @height;
+    line-height: @height - 2;
+    margin-top: -10px;
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    text-align: center;
+    width: 20px;
+  }
+  .user-details{
+    vertical-align: top;
+    padding-left: 10px;
+    margin-top: 5px;
+    overflow-x: hidden;
+  }
+  .user-name {
+    margin-bottom: .3em;
+    font-weight: bold;
+    font-size: medium;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+  }
+  .user-points-value {
+    font-weight: bold;
+  }
+  .user-points {
+    line-height: 1.4em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    .star-icon {
+      margin-right: 3px;
+      vertical-align: middle;
+    }
+  }
+
+  .leaderboard-heading {
+    margin-bottom: 0px;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.2em;
+    font-style: normal;
+  }
+
+  .leaderboard-rank-container {
+    line-height: 50px
+  }
+  .leaderboard-rank {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+
+}
+
+.leaderboard-page-header-widget-section {
+  margin-bottom: 20px;
+}
+.leaderboard-widget-bottom-widget-section{
+  margin: 0px 20px 20px 20px;
+}

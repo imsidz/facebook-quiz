@@ -1,0 +1,10 @@
+{
+  "scores": {
+    "userSignUp": "100",
+    "userTookQuiz": "10",
+    "userSharedQuiz": "10"
+  },
+  "pointsIcon": "",
+  "banner": "",
+  "showNewPointsAlert": "true"
+}

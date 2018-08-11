@@ -1,0 +1,55 @@
+{
+  "widgets": [
+    {
+      "id": "sideBar",
+      "name": "Sidebar"
+    },
+    {
+      "id": "footer",
+      "name": "Footer",
+      "widgets": []
+    },
+    {
+      "id": "belowQuiz",
+      "name": "Below quiz"
+    },
+    {
+      "id": "homeHeader",
+      "name": "Home header",
+      "widgets": []
+    },
+    {
+      "id": "aboveQuizzesList",
+      "name": "Above Quizzes list"
+    },
+    {
+      "id": "belowQuizzesList",
+      "name": "Below quizzes list"
+    },
+    {
+      "id": "commonFooterSection",
+      "name": "Common footer section"
+    },
+    {
+      "id": "navbarLinks",
+      "name": "Links in navbar",
+      "widgets": []
+    },
+    {
+      "id": "aboveQuizQuestion",
+      "name": "Above quiz question"
+    },
+    {
+      "id": "embedQuizFooter",
+      "name": "Embedded Quiz footer content"
+    },
+    {
+      "id": "leaderboardPageHeader",
+      "name": "Leaderboard page top section"
+    },
+    {
+      "id": "leaderboardWidgetBottom",
+      "name": "Leaderboard widget bottom section (below top users' list)"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+@import (less) "./viewQuiz.less";
+@import (less) "./index.less";
+@import (less) "./index.less";
+@import (less) "./leaderboard.less";
+@import (less) "./animate.css";
+
+.inline-block {
+  display: inline-block;
+}
+
+
+.fb-comments {
+  >span, >span >iframe {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}
+.spinner-pulse {
+  width: 80px;
+  height: 80px;
+  margin: 40px auto;
+  background-color: #23CC9D;
+	border: solid 10px #FFFFFF;
+  border-radius: 100%;  
+  -webkit-animation: scaleout 1.0s infinite ease-in-out;
+  animation: scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes scaleout {
+  0% { -webkit-transform: scale(0.0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes scaleout {
+  0% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 100% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+.body-container {
+  max-width: 1200px !important;
+}
+
+.main-content-col {
+	padding-top: 40px;
+	padding-bottom: 80px;
+	padding-left: 60px;
+	padding-right: 20px;
+}
+.sidebar-col {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.quiz-items-row {
+	padding-top: 0px;
+}
+.sidebar-col {
+  .quiz-items-row {
+    padding-top: 0px;
+  }
+}
+.footer-row{
+	background: #fff;
+}
+.footer{
+	padding: 30px 10px;
+    line-height: 1.5em;
+}
+
+#topmenu .dropdown a {
+  display: block;
+  font-size: 15px;
+  line-height: 35px;
+  color: #fff;
+  padding: 12px 27px 13px;
+}
+
+#topmenu .language-dropdown-mobile {
+  float: right;
+  width: auto !important;
+  position: relative;
+  &:hover, &.hover {
+    background: rgba(237, 246, 250, 0.15);
+  }
+  .submenu-1 {
+    border: solid 1px #eee;
+  }
+  .submenu-1 .menu-level-1 > a {
+    padding: 0px 10px;
+    line-height: 30px;
+  }
+}
+#topmenu .language-dropdown-mobile.hover > ul {
+  top: 60px;
+  left: 0;
+  > li {
+    display: block !important;
+  }
+}
+@media (max-width: 767px) {
+  #topmenu .language-dropdown-mobile {
+      > a {
+        padding-left: 5px !important;
+        padding-right: 0px !important;
+      }
+      ul.submenu-1 .menu-level-1 {
+        width: 100% !important;
+        a {
+          padding-top: 6px !important;
+          padding-bottom: 6px !important;
+        }
+      }
+  }
+}
+
+@media( max-width: 767px){
+	.main-content-col {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+@media( min-width: 1200px) {
+	.sidebar-col {
+		padding-right: 40px;
+	}
+}

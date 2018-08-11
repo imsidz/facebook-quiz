@@ -1,0 +1,37 @@
+{
+	"question" : {
+		"title": "Question",
+		"description": "A question for the quiz",
+		"type": "string",
+		"required": true
+	},
+	"description": {
+		"title": "Description",
+		"description": "Something about the quiz",
+		"type": "html"
+	},
+	"image": {
+		"title": "Question banner",
+		"description": "An expressive image for the question",
+		"type": "image"		
+	},
+	"choices" : {
+		"type": "array",
+		"items": {
+			"type": "object",
+			"title": "Choice",
+			"properties": {
+			}
+		},
+		"required": true
+	},
+	"skippable": {
+		"title": "Is it skippable?",
+		"type": "boolean",
+		"default": false
+	},
+    "correctAnswerExplanation": {
+      "title": "Correct answer explanation",
+      "type": "html"
+    }
+}

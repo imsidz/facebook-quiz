@@ -1,0 +1,58 @@
+{
+	"type": {
+		"title": "Choice type",
+		"description": "Choose a type of choice",
+		"type": "string",
+		"enum": [
+			"simple",
+			"fb-like",
+			"click"
+		],
+		"required": true
+	},
+	"title": {
+		"type": "string",
+		"title": "The answer text"
+	},
+	"data": {
+		"type": "string",
+		"title": "Data",
+		"description": "<div class=\"alert alert-info\"><p>Data for the specific choice type.</p><dl class=\"dl-horizontal\"><dt>For 'simple' type</dt><dd>Keep it empty</dd><dt>For 'click' type</dt><dd>Enter the url (link) to open</dd><dt>For 'like' type</dt><dd>Enter the url (link) to like</dd></dl></div>"
+	},
+	"image": {
+		"type": "image",
+		"title": "Image",
+		"description": "An image for the answer"
+	},
+	"favoursResult": {
+		"title": "Favours results",
+		"description": "Which quiz results does this choice favour?",
+		"type": "array",
+		"items": {
+			"type": "object",
+			"title": "Result",
+			"properties": {
+				"result" : {
+					"type": "string",
+					"required": "true",
+					"enum" : []
+				},
+				"weightage": {
+					"type": "range",
+					"default": 1,
+					"minimum": 0,
+					"maximum": 5,
+					"title": "Favoured result weightage",
+					"description": "How much weightage to be given for this choice towards the favoured result?",
+					"required": true
+				}
+			}
+		},
+		"required": true
+	},
+	"correct": {
+		"title": "Is it the correct answer?",
+		"type": "boolean",
+		"default": false
+	}
+}

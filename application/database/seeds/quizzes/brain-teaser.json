@@ -1,0 +1,386 @@
+{
+  "topic": "Can You Correctly Answer 10 Brain Teaser Questions?",
+  "image": "\/media\/brain-teasers\/banner.jpg",
+  "description": "Ever wondered how sharp your brain is? Find it out with this simple test!",
+  "pageContent": "",
+  "type": "scoreBased",
+  "questions": [
+    {
+      "question": "Something extraordinary happened on May 6th 1978 at 12:34 am, what was that?",
+      "description": "",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "Solar eclipse",
+          "image": "",
+          "correct": "false",
+          "id": "26113c8f-13ff-4ef5-960b-61c1d8f85ed1"
+        },
+        {
+          "type": "simple",
+          "title": "Lunar eclipse",
+          "image": "",
+          "correct": "false",
+          "id": "9b241494-c27a-4f4b-ad90-be2b916b5081"
+        },
+        {
+          "type": "simple",
+          "title": "12345678",
+          "image": "",
+          "correct": "true",
+          "id": "31e881b6-83ae-4b50-bd99-5da791906f48"
+        }
+      ],
+      "skippable": "false",
+      "id": "bac8c1ac-64ea-4f88-bfb1-67c23a787f79",
+      "index": "0"
+    },
+    {
+      "question": "On my way to St. Ives I saw a man with 7 wives. Each wife had 7 sacks. Each sack had 7 cats. Each cat had 7 kittens. Kitten, cats, sacks, wives. How many were going to St. Ives?",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "1",
+          "image": "",
+          "correct": "true",
+          "id": "50c7e5ea-ca27-4f64-9a34-af7307e3557d"
+        },
+        {
+          "type": "simple",
+          "title": "7",
+          "image": "",
+          "correct": "false",
+          "id": "e49bd706-71fd-44ec-9fe6-22c67f8c34ca"
+        },
+        {
+          "type": "simple",
+          "title": "49",
+          "image": "",
+          "correct": "false",
+          "id": "284c3e28-8c99-48c5-937b-a979edf25d59"
+        },
+        {
+          "type": "simple",
+          "title": "21",
+          "image": "",
+          "correct": "false",
+          "id": "ffa6c70c-8c90-48c2-8223-e79c3e3983fb"
+        }
+      ],
+      "skippable": "false",
+      "id": "b15bf166-48c7-4f00-bcdd-740c3acb49eb",
+      "index": "1"
+    },
+    {
+      "question": "Imagine you are in a sinking rowboat surrounded by sharks. How would you survive?",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "Stay calm , dont show fear",
+          "image": "",
+          "correct": "false",
+          "id": "366c771f-07a5-4c18-9002-6b39b10919a7"
+        },
+        {
+          "type": "simple",
+          "title": "Jump and swim towards land",
+          "image": "",
+          "correct": "false",
+          "id": "55ed2ba6-a751-4cc5-b9ba-ef6637140ba5"
+        },
+        {
+          "type": "simple",
+          "title": "Take a step back into reality",
+          "image": "",
+          "correct": "true",
+          "id": "ab4b04c4-fbcb-4fba-80ff-7555eab04fb8"
+        }
+      ],
+      "skippable": "false",
+      "id": "1ae8b47e-49cc-49fc-9b43-a8b1cf81d79d",
+      "index": "2"
+    },
+    {
+      "question": "A boy is walking down the road with a doctor. While the boy is the doctor's son, the doctor isn't the boy's father. Then who is the doctor?",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "His grand father",
+          "image": "",
+          "correct": "false",
+          "id": "bd3e5e65-2495-45b3-b469-16b559b13608"
+        },
+        {
+          "type": "simple",
+          "title": "Step father",
+          "image": "",
+          "correct": "false",
+          "id": "f6463c70-6f80-4523-9a06-f12995cc44f4"
+        },
+        {
+          "type": "simple",
+          "title": "God father",
+          "image": "",
+          "correct": "false",
+          "id": "63f5e7b5-7ad3-4ea7-a68d-e5ffc951c614"
+        },
+        {
+          "type": "simple",
+          "title": "His mother",
+          "image": "",
+          "correct": "true",
+          "id": "da31eef8-85a3-4f15-b938-f0941c882a47"
+        }
+      ],
+      "skippable": "false",
+      "id": "22bd0aad-4162-41d8-93fe-3b9dd16220ef",
+      "index": "3"
+    },
+    {
+      "question": "What can you hold without ever touching, or using your hands?",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "Water",
+          "image": "",
+          "correct": "false",
+          "id": "655a1257-8c99-418c-a3e0-bbfc37c840c9"
+        },
+        {
+          "type": "simple",
+          "title": "Breath",
+          "image": "",
+          "correct": "true",
+          "id": "4234a7a8-56b4-41d6-8280-c86d8895a486"
+        },
+        {
+          "type": "simple",
+          "title": "Air",
+          "image": "",
+          "correct": "false",
+          "id": "618cca79-d303-4af5-b508-1e565b623fda"
+        }
+      ],
+      "skippable": "false",
+      "id": "7d8e45d2-ee96-4092-a705-d82c79be4249",
+      "index": "4"
+    },
+    {
+      "question": "When you have me, you immediately feel like sharing me. But, if you do share me, you don't have me.",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "Food",
+          "image": "",
+          "correct": "false",
+          "id": "fb7ba38b-f729-4f1e-bb2a-4e9b0aa5188b"
+        },
+        {
+          "type": "simple",
+          "title": "Gossip",
+          "image": "",
+          "correct": "false",
+          "id": "ab0d1c81-ece7-435e-815c-a30dc62b0e55"
+        },
+        {
+          "type": "simple",
+          "title": "Secret",
+          "image": "",
+          "correct": "true",
+          "id": "fe860b9c-09d9-4048-9b90-5e97562b4001"
+        }
+      ],
+      "skippable": "false",
+      "id": "35c7425b-9ec8-4f89-ad66-4369ed5c314e",
+      "index": "5"
+    },
+    {
+      "question": "An electric train is going 40 mph north, the wind is blowing 60 mph south. Which way is the train's smoke blowing?",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "Towards north",
+          "image": "",
+          "correct": "false",
+          "id": "4c1438b6-e6b8-48af-b308-516c5853961d"
+        },
+        {
+          "type": "simple",
+          "title": "Backwards",
+          "image": "",
+          "correct": "false",
+          "id": "7cb2aebe-afda-4f49-b95a-673107587480"
+        },
+        {
+          "type": "simple",
+          "title": "Upwards",
+          "image": "",
+          "correct": "false",
+          "id": "6adf920e-300a-4139-8da9-230cf335daf2"
+        },
+        {
+          "type": "simple",
+          "title": "No smoke as electric train",
+          "image": "",
+          "correct": "true",
+          "id": "7c70c953-414f-47e7-ade4-908ef80e3492"
+        }
+      ],
+      "skippable": "false",
+      "id": "5c05e918-2a00-4846-b0e1-443da75dc2f7",
+      "index": "6"
+    },
+    {
+      "question": "If a rooster is sitting on the roof of a barn and lays an egg, it will always roll down the shortest path.",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "Yes",
+          "image": "",
+          "correct": "false",
+          "id": "a7a8b4af-ed87-4355-a1d7-b6238c8bafd1"
+        },
+        {
+          "type": "simple",
+          "title": "No",
+          "image": "",
+          "correct": "true",
+          "id": "3a7df8b3-efac-479f-94c9-f4540aa4145d"
+        }
+      ],
+      "skippable": "false",
+      "id": "210df491-5f5e-4303-966d-7a8e245e44db",
+      "index": "7"
+    },
+    {
+      "question": "Which is more heavier?",
+      "description": "<p><br><\/p>",
+      "image": "",
+      "choices": [
+        {
+          "type": "simple",
+          "title": "1 Kg of iron",
+          "image": "",
+          "correct": "false",
+          "id": "ac5ded71-245d-4c5d-aeff-f92d02051d96"
+        },
+        {
+          "type": "simple",
+          "title": "1 Kg of wool",
+          "image": "",
+          "correct": "false",
+          "id": "4ce4bd50-ebb3-4c6a-a6f0-43b742a1d821"
+        },
+        {
+          "type": "simple",
+          "title": "1 Kg of water",
+          "image": "",
+          "correct": "false",
+          "id": "10d2607e-8619-4fcb-9009-5b9ed1e6f61e"
+        },
+        {
+          "type": "simple",
+          "title": "All are equal",
+          "image": "",
+          "correct": "true",
+          "id": "039e8c7c-09bd-4de9-bb94-2ebc8aa60eb8"
+        }
+      ],
+      "skippable": "false",
+      "id": "df28235d-2fbf-4489-ad43-8c6c8412a9c8",
+      "index": "8"
+    }
+  ],
+  "results": [
+    {
+      "id": "e6645b09-92d0-4222-83d4-9643db97f37d",
+      "title": "100% Wow Genius!! ",
+      "image": "\/media\/brain-teasers\/respect.jpg",
+      "description": "<p>You are a genius! You got all the questions right! Those were a bunch of questions most of the people never get right! But you cracked it all! Excellent!&nbsp;<span style=\"line-height: 1.42857143;\">Be proud of it &amp; let your friends know about it.<\/span><br><\/p>",
+      "minScore": "100"
+    },
+    {
+      "id": "4393e270-b76e-4fa8-8c14-58eda5f252a4",
+      "title": "90% Wow That's awesome!",
+      "image": "\/media\/brain-teasers\/respect.jpg",
+      "description": "<p>Great! You got 90%!&nbsp;<span style=\"line-height: 1.42857143;\">&nbsp;<\/span><span style=\"line-height: 1.42857143;\">Those were a bunch of questions most of the people never get right!<\/span><span style=\"line-height: 1.42857143;\">&nbsp;<\/span><span style=\"line-height: 1.42857143;\">Be proud and let the world know it!<\/span><br><\/p>",
+      "minScore": "90"
+    },
+    {
+      "id": "a48fc3fe-0eb3-41fa-86ec-b1b0ed5ea7f7",
+      "title": "80% That's Great!",
+      "image": "\/media\/brain-teasers\/respect.jpg",
+      "description": "<p>Great! You got 80%! Be proud and let your friends know it.<br><\/p>",
+      "minScore": "80"
+    },
+    {
+      "id": "4b14373c-4265-4875-93b7-cbd93313bfa5",
+      "title": "70% That's Too Good!",
+      "image": "\/media\/brain-teasers\/thumbsup.jpg",
+      "description": "<p>Great! You got 70%! Be proud and let the world know it!<br><\/p>",
+      "minScore": "70"
+    },
+    {
+      "id": "0cede296-8521-4dc8-8f1c-90569e1da938",
+      "title": "60% That's Goodl!",
+      "image": "\/media\/brain-teasers\/thumbsup.jpg",
+      "description": "<p>Great! You got 60%! &nbsp;Be proud and let the world know it!<br><\/p>",
+      "minScore": "60"
+    },
+    {
+      "id": "a1bee07f-634d-4aa7-8ecf-dc0ff82d5ab0",
+      "title": "50%  That's Cool!",
+      "image": "\/media\/brain-teasers\/thumbsup.jpg",
+      "description": "<p>Great! You got 50%!&nbsp;That's really good! Be proud and let the world know it!<br>Or you could take this test again and get an awesome score!<br><\/p>",
+      "minScore": "50"
+    },
+    {
+      "id": "d648eaf7-e4d7-4b24-8178-2c42acc3e305",
+      "title": "40% Cool!!",
+      "image": "\/media\/brain-teasers\/thumbsup.jpg",
+      "description": "<p>Good! You got 40%! &nbsp;May be you could take this test again and get an awesome score!<br><\/p>",
+      "minScore": "40"
+    },
+    {
+      "id": "4cf28275-cb34-429f-a79f-69a20b1b7869",
+      "title": "Below 40%",
+      "image": "",
+      "description": "<p>May be you were not really careful while taking the test! Try it again and you might get an awesome score!<br><\/p>",
+      "minScore": "0"
+    }
+  ],
+  "ogImages": {
+    "main": "\/media\/brain-teasers\/og.jpg",
+    "e6645b09-92d0-4222-83d4-9643db97f37d": "\/media\/brain-teasers\/og-result.jpg",
+    "4393e270-b76e-4fa8-8c14-58eda5f252a4": "\/media\/brain-teasers\/og-result.jpg",
+    "a48fc3fe-0eb3-41fa-86ec-b1b0ed5ea7f7": "\/media\/brain-teasers\/og-result.jpg",
+    "4b14373c-4265-4875-93b7-cbd93313bfa5": "\/media\/brain-teasers\/og-result.jpg",
+    "0cede296-8521-4dc8-8f1c-90569e1da938": "\/media\/brain-teasers\/og-result.jpg",
+    "a1bee07f-634d-4aa7-8ecf-dc0ff82d5ab0": "\/media\/brain-teasers\/og-result.jpg",
+    "d648eaf7-e4d7-4b24-8178-2c42acc3e305": "\/media\/brain-teasers\/og-result.jpg",
+    "4cf28275-cb34-429f-a79f-69a20b1b7869": "\/media\/brain-teasers\/og-result.jpg"
+  },
+  "active": true,
+  "created_at": "2015-03-01 07:30:20",
+  "updated_at": "2016-05-19 10:30:26",
+  "settings": {
+    "forceLogin": "before-result",
+    "loginPromptMessage": ""
+  },
+  "category": 2
+}

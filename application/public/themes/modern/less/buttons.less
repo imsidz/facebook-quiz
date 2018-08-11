@@ -1,0 +1,145 @@
+/*-----------------------------------*/
+/* Buttons */
+/*-----------------------------------*/
+
+/* foo classes */
+.buttons-wrap{margin-bottom: 60px;}
+.buttons{margin-bottom:10px;}
+.buttons .btn{margin-right:2px; margin-bottom:10px;}
+/* end foo classes */
+
+.btn:hover, .btn:focus {
+  -webkit-transition: background-position .0s linear;
+  -moz-transition: background-position .0s linear;
+  -o-transition: background-position .0s linear;
+  transition: background-position .0s linear;
+}
+.btn:active, .btn.active {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disabled, .btn[disabled] {
+  background-color: transparent;
+  color:#fff;
+}
+.btn{
+  display:inline-block;
+  padding: 0;
+  border: 0 none;
+  border-radius: 0;
+}
+.btn span,
+.btn input{
+  display: block;
+  height: @buttonHeight;
+  line-height: @buttonHeight;
+  padding: 0 16px;
+  font-size: @font-size + 1;
+  font-weight: 400;
+  color: #fff;
+  white-space: nowrap;
+  text-shadow:none;
+  background-color: @turquoise;
+  border: 0 none;
+  background-image: url(images/icons/button-icons.png);
+  background-repeat: no-repeat;
+  background-position: -300px -300px;
+}
+.btn-icon-left span,
+.btn-icon-left input{
+  padding-left: 48px;
+  padding-right: 20px;
+  background-position: left top;
+}
+.btn-icon-left.btn-arrow-left span, .btn-icon-left.btn-arrow-left input{background-position: left -45px;}
+.btn-icon-left.btn-arrow-up span, .btn-icon-left.btn-arrow-up input{background-position: left -90px;}
+.btn-icon-left.btn-arrow-down span, .btn-icon-left.btn-arrow-down input{background-position: left -135px;}
+
+.btn-icon-right span,
+.btn-icon-right input{
+  padding-right: 48px;
+  padding-left: 20px;
+  background-position: right top;
+}
+.btn-icon-right.btn-arrow-left span, .btn-icon-right.btn-arrow-left input{background-position: right -45px;}
+.btn-icon-right.btn-arrow-up span, .btn-icon-right.btn-arrow-up input{background-position: right -90px;}
+.btn-icon-right.btn-arrow-down span, .btn-icon-right.btn-arrow-down input{background-position: right -135px;}
+
+.btn-white span, .btn-white input{background-color: #fff;
+  color: #333;
+}
+.btn-blue span, .btn-blue input{background-color: @blue;}
+.btn-green span, .btn-green input{background-color: @green;}
+.btn-red span, .btn-red input{background-color: @red;}
+.btn-yellow span, .btn-yellow input{background-color: @yellow;}
+.btn-turquoise span, .btn-turquoise input{background-color: @turquoise-dark;}
+.btn-black span, .btn-black input{background-color: @black;}
+.btn-brown span, .btn-brown input{background-color: @brown;}
+
+.btn-fb span, .btn-fb input{background-color: #3E61AC};
+.btn-twitter span, .btn-twitter input{background-color: #55acee};
+.btn-pinterest span, .btn-pinterest input{background-color: #cc2127};
+.btn-google-plus span, .btn-google-plus input{background-color: #dd4b39};
+
+
+// Social button variants
+.social-button-variant(@color; @background) {
+  color: @color;
+  background-color: @background;
+
+  &:hover,
+  &:focus {
+    background-color: mix(@background, white, 80%);
+  }
+  &:active,
+  &.active {
+    background-color: mix(@background, black, 85%);
+  }
+}
+
+
+// Set the backgrounds
+// -------------------------
+.btn-social-pinterest span{
+  .social-button-variant(@btn-default-color, @social-pinterest);
+}
+.btn-social-linkedin span {
+  .social-button-variant(@btn-default-color, @social-linkedin)
+}
+.btn-social-stumbleupon span{
+  .social-button-variant(@btn-default-color, @social-stumbleupon);
+}
+.btn-social-googleplus span{
+  .social-button-variant(@btn-default-color, @social-googleplus);
+}
+.btn-social-facebook span{
+  .social-button-variant(@btn-default-color, @social-facebook);
+}
+.btn-social-twitter span{
+  .social-button-variant(@btn-default-color, @social-twitter);
+}
+
+.btn-social-tumblr span{
+  .social-button-variant(@btn-default-color, @social-tumblr);
+}
+
+.btn-social-reddit span{
+  .social-button-variant(@btn-default-color, @social-reddit);
+}
+
+.btn-social-vk span{
+  .social-button-variant(@btn-default-color, @social-vk);
+}
+.btn-social-ok span{
+  .social-button-variant(@btn-default-color, @social-ok);
+}
+
+.btn-lg {
+    font-size: 18px;
+}
+.btn-lg>span {
+    font-size: 18px;
+    line-height: 60px;
+    height: 60px;
+    padding: 0px 45px;
+}

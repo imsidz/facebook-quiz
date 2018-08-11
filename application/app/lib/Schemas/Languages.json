@@ -1,0 +1,343 @@
+{
+  "type": "array",
+  "required": true,
+  "title": "Language",
+  "items": {
+    "type": "object",
+    "title": "Language",
+    "properties": {
+      "name": {
+        "type": "text",
+        "title": "Language name",
+        "required": true
+      },
+      "code" : {
+        "type": "text",
+        "title": "Language code (example: en, es, etc)",
+        "required": true
+      },
+      "fb_code" : {
+        "type": "text",
+        "title": "Facebook locale code (eg: en_US, es_ES, etc)",
+        "description": "<a href=\"https://www.facebook.com/translations/FacebookLocales.xml\">Click here for Facebook codes reference</a>",
+        "required": true
+      },
+      "image": {
+        "type": "image",
+        "title": "Flag image",
+        "required": true
+      },
+      "direction" : {
+        "type": "text",
+        "title": "Direction",
+        "required": true,
+        "enum": [
+          "ltr",
+          "rtl"
+        ],
+        "default" : "ltr"
+      },
+      "strings": {
+        "type": "object",
+        "title": "Strings",
+        "properties": {
+          "categories" : {
+            "title": "'Categories'",
+            "default": "Categories"
+          },
+          "quiz" : {
+            "title": "'Quiz'",
+            "default": "Quiz"
+          },
+          "quizzes" : {
+            "title": "'Quizzes' in navbar",
+            "default": "Quizzes"
+          },
+          "latest" : {
+            "title": "'Latest' in navbar",
+            "default": "Latest"
+          },
+          "popular" : {
+            "title": "'Popular' in navbar",
+            "default": "Popular"
+          },
+          "latestQuizzes" : {
+            "title": "'Latest Quizzes' in heading",
+            "default": "Latest Quizzes"
+          },
+          "popularQuizzes" : {
+            "title": "'Popular Quizzes' in heading",
+            "default": "Popular Quizzes"
+          },
+          "comments": {
+            "title": "'Comments' : Facebook comments box heading",
+            "default": "Comments"
+          },
+          "contactUs":{
+            "title": "'Contact us' in navbar",
+            "default": "Contact us"
+          },
+          "likeUsOnFB" :{
+            "title": "'Like us on Facebook'",
+            "default": "Like us on Facebook"
+          },
+          "share" :{
+            "title": "'Share'",
+            "default": "Share"
+          },
+          "tweet" :{
+            "title": "'Tweet'",
+            "default": "Tweet"
+          },
+          "shareOnFB" :{
+            "title": "'Share on Facebook'",
+            "default": "Share on Facebook"
+          },
+          "shareOnTwitter" :{
+            "title": "'Share on Twitter'",
+            "default": "Share on Twitter"
+          },
+          "shareOnPinterest" :{
+            "title": "'Share on Pinterest'",
+            "default": "Share on Pinterest"
+          },
+          "shareOnGooglePlus" :{
+            "title": "'Share on Google +'",
+            "default": "Share on Google +"
+          },
+          "loginBtn" :{
+            "title": "'Login' button text used in many places",
+            "default": "Login"
+          },
+          "logoutBtn" :{
+            "title": "'Logout' button text used in many places",
+            "default": "Logout"
+          },
+          "closeBtn": {
+            "title": "'Close' button text used in many places",
+            "default": "Close"
+          },
+          "signUpBtn": {
+            "title": "'Sign up' button text used in many places",
+            "default": "Sign up"
+          },
+          "loginWithFB" :{
+            "title": "'Login with Facebook' button text",
+            "default": "Login with Facebook"
+          },
+          "loggingYouIn":{
+            "title": "'Logging you in...' message shown while logging in",
+            "default": "Logging you in..."
+          },
+          "fbPermissionError":{
+            "title": "'Facebook login error!' message shown while permission error occurs while logging in",
+            "default": "Facebook login error! You must allow the permissions to log in Facebook"
+          },
+          "noQuizzesYet":{
+            "title": "'No quizzes yet!' message shown if there are no quizzes to show",
+            "default": "No quizzes yet!"
+          },
+          "hereAreSomeQuizzes": {
+            "title": "'Here are some awesome quizzes' heading shown above quizzes list",
+            "default": "Here are some awesome quizzes"
+          },
+          "loadingQuiz": {
+            "title": "'Loading quiz..' message shown before a quiz is loaded",
+            "default": "Loading quiz.."
+          },
+          "youMayAlsoLike": {
+            "title": "'You may also like' heading shown above related quizzes",
+            "default": "You may also like"
+          },
+          "pageNotFound": {
+            "title": "'Page not found' message in 404 page",
+            "default": "Page not found"
+          },
+          "someErrorOccured": {
+            "title": "'Some error occured' message",
+            "default": "Some error occured"
+          },
+          "startQuiz": {
+            "title": "'Start quiz' button text",
+            "default": "Start quiz"
+          },
+          "correctAnswers": {
+            "title": "'Correct answers' heading above correct answers displayed at the end of quiz",
+            "default": "Correct answers"
+          },
+          "clickLikeToChooseThisOption": {
+            "title": "'Click like to choose this option' prompt in FB like type choice",
+            "default": "Click like to choose this option"
+          },
+          "question": {
+            "title": "'Question' for use in many places",
+            "default": "Question"
+          },
+          "correct": {
+            "title": "'Correct' for use in many places",
+            "default": "Correct"
+          },
+          "itsTheCorrectAnswer": {
+            "title": "'It's the correct answer' for response on answering a question",
+            "default": "It's the correct answer"
+          },
+          "wrong": {
+            "title": "'Wrong' for use in many places",
+            "default": "Wrong"
+          },
+          "theCorrectAnswerIs": {
+            "title": "'The correct answer is' for response on answering a question",
+            "default": "The correct answer is"
+          },
+          "okNext": {
+            "title": "'Okay! Next' for 'next' button on answering a question",
+            "default": "Okay! Next"
+          },
+          "skip": {
+            "title": "'Skip' for use in many places",
+            "default": "Skip"
+          },
+          "start": {
+            "title": "'Start' for use in many places",
+            "default": "Start"
+          },
+          "finish": {
+            "title": "'Finish' for use in many places",
+            "default": "Finish"
+          },
+          "preparingResult": {
+            "title": "'Preparing the result' message shown after finishing quiz",
+            "default": "Preparing the result"
+          },
+          "hereIsTheResultIGot": {
+            "title": "'Here is the result I got' message shown when a user lands on a quiz from a result shared by another user",
+            "default": "Here is the result I got"
+          },
+          "nowTryYourselfAndLetMeKnowResult": {
+            "title": "'Now try it yourself and let me know your result!' message shown when a user lands on a quiz from a result shared by another user",
+            "default": "Now try it yourself and let me know your result!"
+          },
+          "seeCorrectAnswers": {
+            "title": "'See correct answers' button text shown after finishing quiz",
+            "default": "See correct answers"
+          },
+          "heyShareItPrompt": {
+            "title": "'Hey! Share your result with your friends!' message shown after finishing quiz",
+            "default": "Hey! Share your result with your friends!"
+          },
+          "iGot": {
+            "title": "'I got' used in sharing the user's result on social media",
+            "default": "I got",
+            "description": "For example: 'I got 100% Cute - How Cute are you?"
+          },
+          "tryThisQuizAgain": {
+            "title": "'Wanna try this quiz again?' link shown to retake the quiz after it is finished",
+            "default": "Wanna try this quiz again?"
+          },
+          "wannaTryMoreQuizzes": {
+            "title": "'Wanna try more awesome quizzes?' Message shown to prompt the user to like your facebook page",
+            "default": "Wanna try more awesome quizzes?",
+            "description": "For example: 'Wanna try more awesome quizzes? Like us on Facebook!"
+          },
+          "viewMoreQuizzes": {
+            "title": "'View more quizzes' link shown below related quizzes in 'view quiz' page",
+            "default": "View more quizzes"
+          },
+          "fbNoEmailError" : {
+            "title": "'Facebook email ID cannot be obtained - error!'",
+            "default": "Facebook login error! Your email cannot be obtained. Either you have disallowed email permission or you don't have a verified email ID on your Facebook account.",
+            "description": "Message shown when the user's email ID cannot be obtained from Facebook due to disallowed permission or if the user hasn't verified his email on his Facebook account"
+          },
+          "shareOnfacebook" :{
+            "title": "'Share on Facebook'",
+            "default": "Share on Facebook"
+          },
+          "shareOntwitter" :{
+            "title": "'Share on Twitter'",
+            "default": "Share on Twitter"
+          },
+          "shareOnpinterest" :{
+            "title": "'Share on Pinterest'",
+            "default": "Share on Pinterest"
+          },
+          "shareOngoogleplus" :{
+            "title": "'Share on Google +'",
+            "default": "Share on Google +"
+          },
+          "shareOntumblr" :{
+            "title": "'Share on Tumblr'",
+            "default": "Share on Tumblr"
+          },
+          "shareOnreddit" :{
+            "title": "'Share on Reddit'",
+            "default": "Share on Reddit"
+          },
+          "shareOnvk" :{
+            "title": "'Share on VK'",
+            "default": "Share on VK"
+          },
+          "shareOnok" :{
+            "title": "'Share on OK.ru'",
+            "default": "Share on OK.ru"
+          },
+          "embed": {
+            "title": "'Embed'",
+            "default": "Embed"
+          },
+          "copyCodeBelowToEmbedQuiz": {
+            "title": "'Copy the code below to embed this Quiz'",
+            "default": "Copy the code below to embed this Quiz"
+          },
+          "points": {
+            "title": "'Points'",
+            "default": "Points"
+          },
+          "noUsersYet": {
+            "title": "'No users yet'",
+            "default": "No users yet"
+          },
+          "leaderboard": {
+            "title": "'Leaderboard'",
+            "default": "Leaderboard"
+          },
+          "expandLeaderboard": {
+            "title": "'More' - The text in the 'Expand leaderboard' button",
+            "default": "More"
+          },
+          "contractLeaderboard": {
+            "title": "'Less' - The text in the 'Contract leaderboard' button",
+            "default": "Less"
+          },
+          "viewAllLeaderboard": {
+            "title": "'View all' - The link in the leaderboard widget to view the complete leaderboard",
+            "default": "View all"
+          },
+          "earnedNewPointsMessage": {
+            "title": "'You have earned new points!' - The message shown in the popup when a user earns new points",
+            "default": "You have earned new points"
+          },
+          "earnedNewPointsOkayBtnText": {
+            "title": "'Wow! Thats cool!' - The 'OK' button text in the popup shown when a user earns new points",
+            "default": "Wow! Thats cool!"
+          },
+          "noMoreItemsToLoad": {
+            "title": "'No more items to load!' - The message to be shown when infinite scroll ends.",
+            "default": "No more items to load!"
+          },
+          "shareLockerMessage": {
+            "title": "'Share this quiz to view your result!' - The message to be shown while forcing the user(if enabled) to share the quiz to view results.",
+            "default": "Share this quiz to view your result!"
+          },
+          "search": {
+            "title": "'Search'",
+            "default": "Search"
+          },
+          "loadingNextSetOfItems": {
+            "title": "'Loading more items'",
+            "default": "Loading more items"
+          }
+        }
+      }
+    }
+  }
+}

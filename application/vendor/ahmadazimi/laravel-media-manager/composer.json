@@ -1,0 +1,74 @@
+{
+	"name": "ahmadazimi/laravel-media-manager",
+	"description": "Laravel 4 advanced media manager based on elFinder 2.1.",
+	"version": "1.0.1",
+	"keywords": ["laravel", "elfinder", "uploader", "media-manager", "file-manager"],
+	"homepage": "https://github.com/ahmadazimi/laravel-media-manager",
+	"time": "2012-06-28",
+	"license": "MIT",
+	
+	"repositories": {
+		"elFinder": {
+			"type": "package",
+			"package": {
+				"name": "Studio-42/elFinder",
+				"description": "Open-source file manager for web, written in JavaScript using jQuery and jQuery UI",
+				"version": "2.1",
+				"source": {
+					"url": "https://github.com/Studio-42/elFinder.git",
+					"type": "git",
+					"reference": "2d11ac5170b2c21311ce99412cf220d18671df3d"
+				}
+			}
+		}
+	},
+
+	"require": {
+		"php": ">=5.3.0",
+		"illuminate/support": "5.*"
+	},
+
+	"require-dev": {
+		"Studio-42/elFinder": "~2.1"
+	},
+
+	"authors": [
+		{
+			"name": "Ahmad Azimi",
+			"email": "a2azimi@gmail.com",
+			"homepage": "http://ahmadazimi.name",
+			"role": "Developer"
+		}
+	],
+
+	"support": {
+		"email": "a2azimi@gmail.com",
+		"issues": "https://github.com/ahmadazimi/laravel-media-manager/issues",
+		"source": "https://github.com/ahmadazimi/laravel-media-manager"
+	},
+
+	"scripts": {
+		"post-install-cmd": [
+			"npm install",
+			"gulp clean",
+			"cd vendor/Studio-42/elFinder && jake -C ./../../../build elfinder",
+			"gulp"
+        		],
+		"post-update-cmd": [
+			"gulp clean",
+			"cd vendor/Studio-42/elFinder && jake -C ./../../../build elfinder",
+			"gulp"
+        		]
+	},
+	
+	"autoload": {
+		"classmap": [
+			"src/core"
+		],
+		"psr-0": {
+			"W3G\\MediaManager": "src/"
+		}
+	},
+
+	"minimum-stability": "stable"
+}

@@ -1,0 +1,1 @@
+<iframe style="width:100%;" id="{{ $embedIframeElementIdPrefix . $quiz->id  }}" src="{{QuizHelpers::viewQuizUrl($quiz)}}?embed=true" frameborder="0"></iframe><script src="{{asset('js/embed/quiz.js')}}"></script>

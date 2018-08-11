@@ -1,0 +1,23 @@
+{
+  "scores" : {
+    "title"         :  "Points to be rewarded for each activity",
+    "type"          :   "object",
+    "properties"    :  {}
+  },
+  "pointsIcon"      : {
+    "type": "image",
+    "title": "Points Icon",
+    "description": "[Optional] Choose an icon/image here to change the default star icon for leaderboard points. Perfect size for this image is 64x64",
+    "required": false
+  },
+  "banner"      : {
+    "type": "image",
+    "title": "Banner/Main image in leaderboard widget",
+    "description": "[Optional] Choose an image here to change the default main image in Leaderboard widget.",
+    "required": false
+  },
+  "showNewPointsAlert"  : {
+    "type": "boolean",
+    "title": "Show an alert modal to the user when new points are earned"
+  }
+}
